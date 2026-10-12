@@ -1,0 +1,14 @@
+[
+  {
+    "id": "P07",
+    "source": "C:\\Users\\14394\\Documents\\Vaults\\MyVault\\50-资源\\TianjicX1概要设计_20201128.pdf",
+    "extracted": "C:\\Users\\14394\\Documents\\Vaults\\MyVault\\40-课程\\TIC3\\tianjic_x1_software_0814\\研究笔记\\文献调研\\_工作材料\\提取\\P07",
+    "sha256": "8d9248217a0f8253d3e620925c780c1055a14be65de22faa20f2eed7ce81aa88",
+    "pages": 58,
+    "sparse_pages": [
+      1
+    ],
+    "text_chars": 61623,
+    "engine": "pypdf"
+  }
+]

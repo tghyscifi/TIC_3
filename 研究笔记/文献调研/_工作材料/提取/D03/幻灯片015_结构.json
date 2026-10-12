@@ -1,0 +1,3086 @@
+[
+  {
+    "type": "sp",
+    "identity": {
+      "id": "125",
+      "name": "CustomShape 13"
+    },
+    "text": "",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "6494040",
+        "y": "3629520"
+      },
+      {
+        "tag": "ext",
+        "cx": "1643040",
+        "cy": "4589640"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "127",
+      "name": "CustomShape 14"
+    },
+    "text": "LUTs(tanh)\n = 0.25",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "6539760",
+        "y": "4772160"
+      },
+      {
+        "tag": "ext",
+        "cx": "1551600",
+        "cy": "2304720"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "117",
+      "name": "CustomShape 1"
+    },
+    "text": "Cut(GRU12 + GRU13)",
+    "geometry": [
+      {
+        "tag": "off",
+        "x": "1206360",
+        "y": "1079640"
+      },
+      {
+        "tag": "ext",
+        "cx": "21970440",
+        "cy": "1434240"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "123",
+      "name": "CustomShape 7"
+    },
+    "text": "Mem1",
+    "geometry": [
+      {
+        "tag": "off",
+        "x": "7484362",
+        "y": "3224205"
+      },
+      {
+        "tag": "ext",
+        "cx": "1004040",
+        "cy": "367878"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "124",
+      "name": "CustomShape 8"
+    },
+    "text": "",
+    "geometry": [
+      {
+        "tag": "off",
+        "x": "6508440",
+        "y": "3624839"
+      },
+      {
+        "tag": "ext",
+        "cx": "2945700",
+        "cy": "8711540"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "126",
+      "name": "CustomShape 10"
+    },
+    "text": "0x10000",
+    "geometry": [
+      {
+        "tag": "off",
+        "x": "5520060",
+        "y": "3428955"
+      },
+      {
+        "tag": "ext",
+        "cx": "1004040",
+        "cy": "367878"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "129",
+      "name": "CustomShape 13"
+    },
+    "text": "",
+    "geometry": [
+      {
+        "tag": "off",
+        "x": "6494040",
+        "y": "3629520"
+      },
+      {
+        "tag": "ext",
+        "cx": "1643040",
+        "cy": "4589640"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "130",
+      "name": "CustomShape 14"
+    },
+    "text": "Wir\n = 0.5*4",
+    "geometry": [
+      {
+        "tag": "off",
+        "x": "6539760",
+        "y": "4772160"
+      },
+      {
+        "tag": "ext",
+        "cx": "1551600",
+        "cy": "2304720"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "46",
+      "name": "CustomShape 16"
+    },
+    "text": "",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "3652920",
+        "y": "3623040"
+      },
+      {
+        "tag": "ext",
+        "cx": "1643040",
+        "cy": "304200"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "47",
+      "name": "CustomShape 17"
+    },
+    "text": "Bir = 0.125*4",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "3698640",
+        "y": "3638520"
+      },
+      {
+        "tag": "ext",
+        "cx": "1551600",
+        "cy": "283320"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "48",
+      "name": "CustomShape 7"
+    },
+    "text": "Mem0",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "2898624",
+        "y": "3218996"
+      },
+      {
+        "tag": "ext",
+        "cx": "1004040",
+        "cy": "367878"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "49",
+      "name": "CustomShape 8"
+    },
+    "text": "",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "1922702",
+        "y": "3619630"
+      },
+      {
+        "tag": "ext",
+        "cx": "2945700",
+        "cy": "8716749"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "50",
+      "name": "CustomShape 10"
+    },
+    "text": "0x0000",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "934322",
+        "y": "3423746"
+      },
+      {
+        "tag": "ext",
+        "cx": "1004040",
+        "cy": "367878"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "61",
+      "name": "CustomShape 13"
+    },
+    "text": "",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "6494040",
+        "y": "3629520"
+      },
+      {
+        "tag": "ext",
+        "cx": "1643040",
+        "cy": "4589640"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "62",
+      "name": "CustomShape 14"
+    },
+    "text": "Xt\n = 0,578125",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "6539760",
+        "y": "4772160"
+      },
+      {
+        "tag": "ext",
+        "cx": "1551600",
+        "cy": "2304720"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "63",
+      "name": "CustomShape 10"
+    },
+    "text": "0x10800",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "5520060",
+        "y": "3887308"
+      },
+      {
+        "tag": "ext",
+        "cx": "1004040",
+        "cy": "367878"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "68",
+      "name": "CustomShape 16"
+    },
+    "text": "",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "3652920",
+        "y": "3623040"
+      },
+      {
+        "tag": "ext",
+        "cx": "1643040",
+        "cy": "304200"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "69",
+      "name": "CustomShape 17"
+    },
+    "text": "GRU12 = 0.5",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "3698640",
+        "y": "3638520"
+      },
+      {
+        "tag": "ext",
+        "cx": "1551600",
+        "cy": "283320"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "24",
+      "name": "CustomShape 13"
+    },
+    "text": "",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "6494040",
+        "y": "3629520"
+      },
+      {
+        "tag": "ext",
+        "cx": "1643040",
+        "cy": "4589640"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "25",
+      "name": "CustomShape 14"
+    },
+    "text": "Whr\n = \n16",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "6539760",
+        "y": "4772160"
+      },
+      {
+        "tag": "ext",
+        "cx": "1551600",
+        "cy": "2304720"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "27",
+      "name": "CustomShape 16"
+    },
+    "text": "",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "3652920",
+        "y": "3623040"
+      },
+      {
+        "tag": "ext",
+        "cx": "1643040",
+        "cy": "304200"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "28",
+      "name": "CustomShape 17"
+    },
+    "text": "Bhr\n = 0.125*4",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "3698640",
+        "y": "3638520"
+      },
+      {
+        "tag": "ext",
+        "cx": "1551600",
+        "cy": "283320"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "30",
+      "name": "CustomShape 13"
+    },
+    "text": "",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "6494040",
+        "y": "3629520"
+      },
+      {
+        "tag": "ext",
+        "cx": "1643040",
+        "cy": "4589640"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "31",
+      "name": "CustomShape 14"
+    },
+    "text": "H\nt\n = 0.125",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "6539760",
+        "y": "4772160"
+      },
+      {
+        "tag": "ext",
+        "cx": "1551600",
+        "cy": "2304720"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "32",
+      "name": "CustomShape 10"
+    },
+    "text": "0x10a00",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "5520060",
+        "y": "4312801"
+      },
+      {
+        "tag": "ext",
+        "cx": "1004040",
+        "cy": "367878"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "33",
+      "name": "CustomShape 10"
+    },
+    "text": "0x14a00",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "5531321",
+        "y": "5496496"
+      },
+      {
+        "tag": "ext",
+        "cx": "1004040",
+        "cy": "367878"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "34",
+      "name": "CustomShape 10"
+    },
+    "text": "0x14c00",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "5526300",
+        "y": "5876319"
+      },
+      {
+        "tag": "ext",
+        "cx": "1004040",
+        "cy": "367878"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "35",
+      "name": "CustomShape 10"
+    },
+    "text": "0x\nED\n80",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "820125",
+        "y": "11344841"
+      },
+      {
+        "tag": "ext",
+        "cx": "1004040",
+        "cy": "367878"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "36",
+      "name": "CustomShape 10"
+    },
+    "text": "0x0260",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "925785",
+        "y": "3974767"
+      },
+      {
+        "tag": "ext",
+        "cx": "1004040",
+        "cy": "367878"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "41",
+      "name": "CustomShape 13"
+    },
+    "text": "",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "6494040",
+        "y": "3629520"
+      },
+      {
+        "tag": "ext",
+        "cx": "1643040",
+        "cy": "4589640"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "42",
+      "name": "CustomShape 14"
+    },
+    "text": "LUTs\n = 0.25",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "6539760",
+        "y": "4772160"
+      },
+      {
+        "tag": "ext",
+        "cx": "1551600",
+        "cy": "2304720"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "43",
+      "name": "CustomShape 10"
+    },
+    "text": "0x0460",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "917954",
+        "y": "4451868"
+      },
+      {
+        "tag": "ext",
+        "cx": "1004040",
+        "cy": "367878"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "44",
+      "name": "CustomShape 10"
+    },
+    "text": "0x14d00",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "5533854",
+        "y": "6202539"
+      },
+      {
+        "tag": "ext",
+        "cx": "1004040",
+        "cy": "367878"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "51",
+      "name": "CustomShape 10"
+    },
+    "text": "0x0660",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "910755",
+        "y": "4988758"
+      },
+      {
+        "tag": "ext",
+        "cx": "1004040",
+        "cy": "367878"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "58",
+      "name": "CustomShape 10"
+    },
+    "text": "0x0860",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "918662",
+        "y": "5406095"
+      },
+      {
+        "tag": "ext",
+        "cx": "1004040",
+        "cy": "367878"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "66",
+      "name": "CustomShape 10"
+    },
+    "text": "0x08e0",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "910755",
+        "y": "5773973"
+      },
+      {
+        "tag": "ext",
+        "cx": "1004040",
+        "cy": "367878"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "78",
+      "name": "CustomShape 16"
+    },
+    "text": "",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "3652920",
+        "y": "3623040"
+      },
+      {
+        "tag": "ext",
+        "cx": "1643040",
+        "cy": "304200"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "79",
+      "name": "CustomShape 17"
+    },
+    "text": "Wiz = 0.5*4",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "3698640",
+        "y": "3638520"
+      },
+      {
+        "tag": "ext",
+        "cx": "1551600",
+        "cy": "283320"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "81",
+      "name": "CustomShape 13"
+    },
+    "text": "",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "6494040",
+        "y": "3629520"
+      },
+      {
+        "tag": "ext",
+        "cx": "1643040",
+        "cy": "4589640"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "82",
+      "name": "CustomShape 14"
+    },
+    "text": "Biz = 0.125*4",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "6539760",
+        "y": "4772160"
+      },
+      {
+        "tag": "ext",
+        "cx": "1551600",
+        "cy": "2304720"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "83",
+      "name": "CustomShape 10"
+    },
+    "text": "0x15500",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "5526300",
+        "y": "6610081"
+      },
+      {
+        "tag": "ext",
+        "cx": "1004040",
+        "cy": "367878"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "84",
+      "name": "CustomShape 10"
+    },
+    "text": "0x157\n0\n0",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "5520060",
+        "y": "7033626"
+      },
+      {
+        "tag": "ext",
+        "cx": "1004040",
+        "cy": "367878"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "54",
+      "name": "CustomShape 16"
+    },
+    "text": "",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "3652920",
+        "y": "3623040"
+      },
+      {
+        "tag": "ext",
+        "cx": "1643040",
+        "cy": "304200"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "55",
+      "name": "CustomShape 17"
+    },
+    "text": "Whz\n = \n16",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "3698640",
+        "y": "3638520"
+      },
+      {
+        "tag": "ext",
+        "cx": "1551600",
+        "cy": "283320"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "57",
+      "name": "CustomShape 13"
+    },
+    "text": "",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "6494040",
+        "y": "3629520"
+      },
+      {
+        "tag": "ext",
+        "cx": "1643040",
+        "cy": "4589640"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "59",
+      "name": "CustomShape 14"
+    },
+    "text": "Bhz\n = 0.125*4",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "6539760",
+        "y": "4772160"
+      },
+      {
+        "tag": "ext",
+        "cx": "1551600",
+        "cy": "2304720"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "64",
+      "name": "CustomShape 10"
+    },
+    "text": "0x19700",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "5526300",
+        "y": "8310098"
+      },
+      {
+        "tag": "ext",
+        "cx": "1004040",
+        "cy": "367878"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "75",
+      "name": "CustomShape 16"
+    },
+    "text": "",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "3652920",
+        "y": "3623040"
+      },
+      {
+        "tag": "ext",
+        "cx": "1643040",
+        "cy": "304200"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "90",
+      "name": "CustomShape 17"
+    },
+    "text": "Win = 0.5*4",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "3698640",
+        "y": "3638520"
+      },
+      {
+        "tag": "ext",
+        "cx": "1551600",
+        "cy": "283320"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "92",
+      "name": "CustomShape 13"
+    },
+    "text": "",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "6494040",
+        "y": "3629520"
+      },
+      {
+        "tag": "ext",
+        "cx": "1643040",
+        "cy": "4589640"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "93",
+      "name": "CustomShape 14"
+    },
+    "text": "Bin = 0.125*4",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "6539760",
+        "y": "4772160"
+      },
+      {
+        "tag": "ext",
+        "cx": "1551600",
+        "cy": "2304720"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "94",
+      "name": "CustomShape 10"
+    },
+    "text": "0x19900",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "5533854",
+        "y": "8718829"
+      },
+      {
+        "tag": "ext",
+        "cx": "1004040",
+        "cy": "367878"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "95",
+      "name": "CustomShape 10"
+    },
+    "text": "0x1a100",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "5543962",
+        "y": "9127560"
+      },
+      {
+        "tag": "ext",
+        "cx": "1004040",
+        "cy": "367878"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "96",
+      "name": "CustomShape 10"
+    },
+    "text": "0x1a300",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "5554400",
+        "y": "9489734"
+      },
+      {
+        "tag": "ext",
+        "cx": "1004040",
+        "cy": "367878"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "107",
+      "name": "CustomShape 16"
+    },
+    "text": "",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "3652920",
+        "y": "3623040"
+      },
+      {
+        "tag": "ext",
+        "cx": "1643040",
+        "cy": "304200"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "108",
+      "name": "CustomShape 17"
+    },
+    "text": "Zt\n = 0.125",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "3698640",
+        "y": "3638520"
+      },
+      {
+        "tag": "ext",
+        "cx": "1551600",
+        "cy": "283320"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "85",
+      "name": "CustomShape 16"
+    },
+    "text": "",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "3652920",
+        "y": "3623040"
+      },
+      {
+        "tag": "ext",
+        "cx": "1643040",
+        "cy": "304200"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "86",
+      "name": "CustomShape 17"
+    },
+    "text": "Whn\n = \n16",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "3698640",
+        "y": "3638520"
+      },
+      {
+        "tag": "ext",
+        "cx": "1551600",
+        "cy": "283320"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "88",
+      "name": "CustomShape 13"
+    },
+    "text": "",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "6494040",
+        "y": "3629520"
+      },
+      {
+        "tag": "ext",
+        "cx": "1643040",
+        "cy": "4589640"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "89",
+      "name": "CustomShape 14"
+    },
+    "text": "Bhn\n = 0.125*4",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "6539760",
+        "y": "4772160"
+      },
+      {
+        "tag": "ext",
+        "cx": "1551600",
+        "cy": "2304720"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "97",
+      "name": "CustomShape 10"
+    },
+    "text": "0x1e300",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "5543962",
+        "y": "10784632"
+      },
+      {
+        "tag": "ext",
+        "cx": "1004040",
+        "cy": "367878"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "98",
+      "name": "CustomShape 10"
+    },
+    "text": "0x1e500",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "5569233",
+        "y": "11146209"
+      },
+      {
+        "tag": "ext",
+        "cx": "1004040",
+        "cy": "367878"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "100",
+      "name": "CustomShape 13"
+    },
+    "text": "",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "6494040",
+        "y": "3629520"
+      },
+      {
+        "tag": "ext",
+        "cx": "1643040",
+        "cy": "4589640"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "101",
+      "name": "CustomShape 14"
+    },
+    "text": "Nt\n = 0.125",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "6539760",
+        "y": "4772160"
+      },
+      {
+        "tag": "ext",
+        "cx": "1551600",
+        "cy": "2304720"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "109",
+      "name": "CustomShape 10"
+    },
+    "text": "0x0960",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "918662",
+        "y": "6056139"
+      },
+      {
+        "tag": "ext",
+        "cx": "1004040",
+        "cy": "367878"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "104",
+      "name": "CustomShape 13"
+    },
+    "text": "",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "6494040",
+        "y": "3629520"
+      },
+      {
+        "tag": "ext",
+        "cx": "1643040",
+        "cy": "4589640"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "105",
+      "name": "CustomShape 14"
+    },
+    "text": "GRU11\n = 0.125",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "6539760",
+        "y": "4772160"
+      },
+      {
+        "tag": "ext",
+        "cx": "1551600",
+        "cy": "2304720"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "110",
+      "name": "CustomShape 13"
+    },
+    "text": "",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "6494040",
+        "y": "3629520"
+      },
+      {
+        "tag": "ext",
+        "cx": "1643040",
+        "cy": "4589640"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "111",
+      "name": "CustomShape 14"
+    },
+    "text": "GRU13 = 0.5",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "6539760",
+        "y": "4772160"
+      },
+      {
+        "tag": "ext",
+        "cx": "1551600",
+        "cy": "2304720"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "113",
+      "name": "CustomShape 16"
+    },
+    "text": "",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "3652920",
+        "y": "3623040"
+      },
+      {
+        "tag": "ext",
+        "cx": "1643040",
+        "cy": "304200"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "114",
+      "name": "CustomShape 17"
+    },
+    "text": "Buffer = 0.5",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "3698640",
+        "y": "3638520"
+      },
+      {
+        "tag": "ext",
+        "cx": "1551600",
+        "cy": "283320"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "131",
+      "name": "CustomShape 10"
+    },
+    "text": "0x1e600",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "5583022",
+        "y": "11632238"
+      },
+      {
+        "tag": "ext",
+        "cx": "1004040",
+        "cy": "367878"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "134",
+      "name": "CustomShape 13"
+    },
+    "text": "",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "6494040",
+        "y": "3629500"
+      },
+      {
+        "tag": "ext",
+        "cx": "1643040",
+        "cy": "7669749"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "135",
+      "name": "CustomShape 14"
+    },
+    "text": "Ht_back\n=0.125",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "6539760",
+        "y": "5914441"
+      },
+      {
+        "tag": "ext",
+        "cx": "1551600",
+        "cy": "2304719"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "136",
+      "name": "CustomShape 10"
+    },
+    "text": "0\nx1ed80",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "10424740",
+        "y": "11318203"
+      },
+      {
+        "tag": "ext",
+        "cx": "1004040",
+        "cy": "367878"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "2",
+      "name": "文本框 1"
+    },
+    "text": "正向的",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "2898624",
+        "y": "12583517"
+      },
+      {
+        "tag": "ext",
+        "cx": "902811",
+        "cy": "369332"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "137",
+      "name": "文本框 136"
+    },
+    "text": "反向的",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "12288803",
+        "y": "12451694"
+      },
+      {
+        "tag": "ext",
+        "cx": "877163",
+        "cy": "369332"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "138",
+      "name": "CustomShape 10"
+    },
+    "text": "0x1ff80",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "17777508",
+        "y": "11439991"
+      },
+      {
+        "tag": "ext",
+        "cx": "1004040",
+        "cy": "367878"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "139",
+      "name": "CustomShape 10"
+    },
+    "text": "0x1ff00",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "17755754",
+        "y": "11093949"
+      },
+      {
+        "tag": "ext",
+        "cx": "1004040",
+        "cy": "367878"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "141",
+      "name": "CustomShape 13"
+    },
+    "text": "",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "6494040",
+        "y": "3629520"
+      },
+      {
+        "tag": "ext",
+        "cx": "1643040",
+        "cy": "4589640"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "142",
+      "name": "CustomShape 14"
+    },
+    "text": "H\nt-1 = 0.125",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "6539760",
+        "y": "4772160"
+      },
+      {
+        "tag": "ext",
+        "cx": "1551600",
+        "cy": "2304720"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "144",
+      "name": "CustomShape 13"
+    },
+    "text": "",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "6494040",
+        "y": "3629500"
+      },
+      {
+        "tag": "ext",
+        "cx": "1643040",
+        "cy": "7669749"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "145",
+      "name": "CustomShape 14"
+    },
+    "text": "Ht-1_back=0.125",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "6539760",
+        "y": "5914441"
+      },
+      {
+        "tag": "ext",
+        "cx": "1551600",
+        "cy": "2304719"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "146",
+      "name": "CustomShape 10"
+    },
+    "text": "0xff80",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "13153955",
+        "y": "11439991"
+      },
+      {
+        "tag": "ext",
+        "cx": "1004040",
+        "cy": "367878"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "147",
+      "name": "CustomShape 10"
+    },
+    "text": "0xff00",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "13132201",
+        "y": "11093949"
+      },
+      {
+        "tag": "ext",
+        "cx": "1004040",
+        "cy": "367878"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "7",
+      "name": "右大括号 6"
+    },
+    "text": "",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "17141157",
+        "y": "7358682"
+      },
+      {
+        "tag": "ext",
+        "cx": "1229194",
+        "cy": "4273512"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rightBrace"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "8",
+      "name": "文本框 7"
+    },
+    "text": "交换一下位置",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "17137525",
+        "y": "7401504"
+      },
+      {
+        "tag": "ext",
+        "cx": "1569660",
+        "cy": "369332"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "116",
+      "name": "CustomShape 13"
+    },
+    "text": "",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "6494040",
+        "y": "3629520"
+      },
+      {
+        "tag": "ext",
+        "cx": "1643040",
+        "cy": "4589640"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "118",
+      "name": "CustomShape 14"
+    },
+    "text": "H\nt-1 = 0.125",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "6539760",
+        "y": "4772160"
+      },
+      {
+        "tag": "ext",
+        "cx": "1551600",
+        "cy": "2304720"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "120",
+      "name": "CustomShape 13"
+    },
+    "text": "",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "6494040",
+        "y": "3629500"
+      },
+      {
+        "tag": "ext",
+        "cx": "1643040",
+        "cy": "7669749"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "121",
+      "name": "CustomShape 14"
+    },
+    "text": "Ht-1_back=0.125",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "6539760",
+        "y": "5914441"
+      },
+      {
+        "tag": "ext",
+        "cx": "1551600",
+        "cy": "2304719"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "132",
+      "name": "CustomShape 10"
+    },
+    "text": "0x1ff70",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "12846144",
+        "y": "2816816"
+      },
+      {
+        "tag": "ext",
+        "cx": "1004040",
+        "cy": "367878"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "148",
+      "name": "CustomShape 10"
+    },
+    "text": "0x1fee0",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "12846144",
+        "y": "2278709"
+      },
+      {
+        "tag": "ext",
+        "cx": "1004040",
+        "cy": "367878"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "150",
+      "name": "CustomShape 13"
+    },
+    "text": "",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "6494040",
+        "y": "3629500"
+      },
+      {
+        "tag": "ext",
+        "cx": "1643040",
+        "cy": "7669749"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "151",
+      "name": "CustomShape 14"
+    },
+    "text": "127",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "6539760",
+        "y": "5914441"
+      },
+      {
+        "tag": "ext",
+        "cx": "1551600",
+        "cy": "2304719"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "153",
+      "name": "CustomShape 13"
+    },
+    "text": "",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "6494040",
+        "y": "3629500"
+      },
+      {
+        "tag": "ext",
+        "cx": "1643040",
+        "cy": "7669749"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "154",
+      "name": "CustomShape 14"
+    },
+    "text": "127",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "6539760",
+        "y": "5914441"
+      },
+      {
+        "tag": "ext",
+        "cx": "1551600",
+        "cy": "2304719"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "3",
+      "name": "箭头: 下 2"
+    },
+    "text": "",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "17137525",
+        "y": "4725520"
+      },
+      {
+        "tag": "ext",
+        "cx": "895150",
+        "cy": "1974274"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "downArrow"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "156",
+      "name": "CustomShape 13"
+    },
+    "text": "",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "6494040",
+        "y": "3629520"
+      },
+      {
+        "tag": "ext",
+        "cx": "1643040",
+        "cy": "4589640"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "157",
+      "name": "CustomShape 14"
+    },
+    "text": "H\nt\n = 0.125",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "6539760",
+        "y": "4772160"
+      },
+      {
+        "tag": "ext",
+        "cx": "1551600",
+        "cy": "2304720"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "159",
+      "name": "CustomShape 13"
+    },
+    "text": "",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "6494040",
+        "y": "3629500"
+      },
+      {
+        "tag": "ext",
+        "cx": "1643040",
+        "cy": "7669749"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "160",
+      "name": "CustomShape 14"
+    },
+    "text": "Ht_back\n=0.125",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "6539760",
+        "y": "5914441"
+      },
+      {
+        "tag": "ext",
+        "cx": "1551600",
+        "cy": "2304719"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "161",
+      "name": "CustomShape 10"
+    },
+    "text": "0xff70",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "17437394",
+        "y": "2800071"
+      },
+      {
+        "tag": "ext",
+        "cx": "1004040",
+        "cy": "367878"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "162",
+      "name": "CustomShape 10"
+    },
+    "text": "0xfee0",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "17437394",
+        "y": "2261964"
+      },
+      {
+        "tag": "ext",
+        "cx": "1004040",
+        "cy": "367878"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "164",
+      "name": "CustomShape 13"
+    },
+    "text": "",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "6494040",
+        "y": "3629500"
+      },
+      {
+        "tag": "ext",
+        "cx": "1643040",
+        "cy": "7669749"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "165",
+      "name": "CustomShape 14"
+    },
+    "text": "127",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "6539760",
+        "y": "5914441"
+      },
+      {
+        "tag": "ext",
+        "cx": "1551600",
+        "cy": "2304719"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "167",
+      "name": "CustomShape 13"
+    },
+    "text": "",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "6494040",
+        "y": "3629500"
+      },
+      {
+        "tag": "ext",
+        "cx": "1643040",
+        "cy": "7669749"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "168",
+      "name": "CustomShape 14"
+    },
+    "text": "127",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "6539760",
+        "y": "5914441"
+      },
+      {
+        "tag": "ext",
+        "cx": "1551600",
+        "cy": "2304719"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "170",
+      "name": "CustomShape 13"
+    },
+    "text": "",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "6494040",
+        "y": "3629500"
+      },
+      {
+        "tag": "ext",
+        "cx": "1643040",
+        "cy": "7669749"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "171",
+      "name": "CustomShape 14"
+    },
+    "text": "127",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "6539760",
+        "y": "5914441"
+      },
+      {
+        "tag": "ext",
+        "cx": "1551600",
+        "cy": "2304719"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "4",
+      "name": "文本框 3"
+    },
+    "text": "X=39*16*2/1024=1.21875 ---- 4e0",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "11815781",
+        "y": "356291"
+      },
+      {
+        "tag": "ext",
+        "cx": "7067566",
+        "cy": "584775"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  }
+]

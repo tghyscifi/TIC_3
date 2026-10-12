@@ -1,0 +1,4 @@
+# Isolated installation is recommended; existing environments need not change.
+numpy>=1.23,<2
+onnx==1.16.2
+protobuf>=3.20.2,<6

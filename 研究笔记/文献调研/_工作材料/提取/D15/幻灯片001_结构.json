@@ -1,0 +1,58 @@
+[
+  {
+    "type": "pic",
+    "identity": {
+      "id": "4",
+      "name": "图片 3"
+    },
+    "text": "",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "387161",
+        "y": "1097281"
+      },
+      {
+        "tag": "ext",
+        "cx": "5119768",
+        "cy": "3601940"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "5",
+      "name": "文本框 4"
+    },
+    "text": "芯片中目前有\n3\n个网络\n，每个网络计算结束后都会向\nFPGA\n发送结果，\nFPGA\n如何分辨出哪个数据是哪个网络的输出呢？\n目前\n3\n个网络可以进行编号：\n网络\n1\n：\nSoundTracking\n，其中的\ncore(7, 3)\n向\nFPGA\n发数据，数据量：\n16Byte\n。\n网络\n2\n：障碍检测，其中的\ncore(9, 8)\n向\nFPGA\n发数据，数据量：\n128Byte\n。\n网络\n3\n：老鼠检测，其中的\ncore(1,\n \n8)\n向\nFPGA\n发数据，数据量：\n128Byte\n。",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "6376945",
+        "y": "1184744"
+      },
+      {
+        "tag": "ext",
+        "cx": "5231958",
+        "cy": "3416320"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  }
+]

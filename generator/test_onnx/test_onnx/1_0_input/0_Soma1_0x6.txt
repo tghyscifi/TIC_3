@@ -1,0 +1,35 @@
+PIC = 6
+PIC_Mode = 0
+Reset_Addr_in = 1
+Reset_Addr_out = 1
+Reset_Addr_ciso = 1
+Row_ck_on = 0
+Addr_Start_in = 0
+Addr_end_in = 48
+Addr_Start_out = 9216
+Addr_end_out = 9216
+Addr_Start_ciso = 4096
+Addr_end_ciso = 4096
+in_row_max = 0
+Km_num_in = 48
+Km_num_ciso = 0
+Km_num_out = 48
+num_in = 0
+num_ciso = 0
+num_out = 0
+type_in = 1
+type_out = 1
+in_cut_start = 0
+mem_sel = 1
+in_ciso_pipe_sel = 0
+************************
+Read_in_length = 196
+Read_ciso_length = 4
+Write_out_length = 196
+************************
+Addr_Start_in = 0x0
+Addr_end_in = 0xc0
+Addr_Start_out = 0x9000
+Addr_end_out = 0x90c0
+Addr_Start_ciso = 0x4000
+Addr_end_ciso = 0x4000

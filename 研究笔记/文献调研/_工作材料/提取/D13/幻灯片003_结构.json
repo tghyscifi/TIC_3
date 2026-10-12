@@ -1,0 +1,30 @@
+[
+  {
+    "type": "sp",
+    "identity": {
+      "id": "2",
+      "name": "标题 1"
+    },
+    "text": "",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "3",
+      "name": "内容占位符 2"
+    },
+    "text": "预处理\n拆分\n组包",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      }
+    ]
+  }
+]

@@ -1,0 +1,490 @@
+[
+  {
+    "type": "sp",
+    "identity": {
+      "id": "123",
+      "name": "CustomShape 7"
+    },
+    "text": "Mem1",
+    "geometry": [
+      {
+        "tag": "off",
+        "x": "7484362",
+        "y": "3224205"
+      },
+      {
+        "tag": "ext",
+        "cx": "1004040",
+        "cy": "367878"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "124",
+      "name": "CustomShape 8"
+    },
+    "text": "",
+    "geometry": [
+      {
+        "tag": "off",
+        "x": "6508440",
+        "y": "3624839"
+      },
+      {
+        "tag": "ext",
+        "cx": "2945700",
+        "cy": "6662205"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "126",
+      "name": "CustomShape 10"
+    },
+    "text": "0x10000",
+    "geometry": [
+      {
+        "tag": "off",
+        "x": "5520060",
+        "y": "3428955"
+      },
+      {
+        "tag": "ext",
+        "cx": "1004040",
+        "cy": "367878"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "140",
+      "name": "CustomShape 24"
+    },
+    "text": "T = 16B = 0x0000\nS = 16B = 0x0010\nWst\n = 5*128=0.625\nWtt\n = 4*128 = 0.5\nWts\n = 100*32=3.125\nWss\n=5*32=0.15625",
+    "geometry": [
+      {
+        "tag": "off",
+        "x": "10682280",
+        "y": "2706120"
+      },
+      {
+        "tag": "ext",
+        "cx": "12159720",
+        "cy": "3784198"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "48",
+      "name": "CustomShape 7"
+    },
+    "text": "Mem0",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "2898624",
+        "y": "3218996"
+      },
+      {
+        "tag": "ext",
+        "cx": "1004040",
+        "cy": "367878"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "49",
+      "name": "CustomShape 8"
+    },
+    "text": "",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "1922702",
+        "y": "3619630"
+      },
+      {
+        "tag": "ext",
+        "cx": "2945700",
+        "cy": "6662205"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "50",
+      "name": "CustomShape 10"
+    },
+    "text": "0x0000",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "934322",
+        "y": "3423746"
+      },
+      {
+        "tag": "ext",
+        "cx": "1004040",
+        "cy": "367878"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "40",
+      "name": "CustomShape 10"
+    },
+    "text": "0x0020",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "934322",
+        "y": "3987508"
+      },
+      {
+        "tag": "ext",
+        "cx": "1004040",
+        "cy": "367878"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "2",
+      "name": "矩形 1"
+    },
+    "text": "S+T=32B",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "1922702",
+        "y": "3624839"
+      },
+      {
+        "tag": "ext",
+        "cx": "2945700",
+        "cy": "362669"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "30",
+      "name": "矩形 29"
+    },
+    "text": "Wst\n=0.625",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "6524100",
+        "y": "3648254"
+      },
+      {
+        "tag": "ext",
+        "cx": "2945700",
+        "cy": "538735"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "31",
+      "name": "CustomShape 10"
+    },
+    "text": "0x10280",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "5504400",
+        "y": "4088478"
+      },
+      {
+        "tag": "ext",
+        "cx": "1004040",
+        "cy": "367878"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "32",
+      "name": "矩形 31"
+    },
+    "text": "Wtt\n=0.5",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "6508440",
+        "y": "4186989"
+      },
+      {
+        "tag": "ext",
+        "cx": "2945700",
+        "cy": "538735"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "33",
+      "name": "CustomShape 10"
+    },
+    "text": "0x10480",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "5520060",
+        "y": "4725724"
+      },
+      {
+        "tag": "ext",
+        "cx": "1004040",
+        "cy": "367878"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "34",
+      "name": "矩形 33"
+    },
+    "text": "Wts\n=3.125",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "6524100",
+        "y": "4725724"
+      },
+      {
+        "tag": "ext",
+        "cx": "2945700",
+        "cy": "953181"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "41",
+      "name": "CustomShape 10"
+    },
+    "text": "0x11100",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "5488740",
+        "y": "5678905"
+      },
+      {
+        "tag": "ext",
+        "cx": "1004040",
+        "cy": "367878"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "42",
+      "name": "矩形 41"
+    },
+    "text": "Wss\n=0.15625",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "6492780",
+        "y": "5701255"
+      },
+      {
+        "tag": "ext",
+        "cx": "2945700",
+        "cy": "538735"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "43",
+      "name": "CustomShape 10"
+    },
+    "text": "0x111A0",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "5520060",
+        "y": "6239990"
+      },
+      {
+        "tag": "ext",
+        "cx": "1004040",
+        "cy": "367878"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "44",
+      "name": "CustomShape 10"
+    },
+    "text": "0x111A0",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "5488740",
+        "y": "7301340"
+      },
+      {
+        "tag": "ext",
+        "cx": "1004040",
+        "cy": "367878"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  }
+]

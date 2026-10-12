@@ -1,0 +1,180 @@
+
+## 工作表 Sheet1
+
+范围：C3:AW45
+合并：[<MergedCellRange AG13:AJ13>, <MergedCellRange AA13:AD13>, <MergedCellRange AJ34:AJ35>, <MergedCellRange AD18:AD19>, <MergedCellRange AJ18:AJ19>, <MergedCellRange AJ21:AJ22>, <MergedCellRange AJ37:AJ38>, <MergedCellRange AD21:AD22>, <MergedCellRange AD34:AD35>, <MergedCellRange AW21:AW22>, <MergedCellRange AD37:AD38>]
+
+M3：5
+Y3：instant_PI_request
+M4：4
+Y4：back_sign
+M5：3
+M6：2
+M7：1
+M8：0
+AA13：有静态原语的Group
+AG13：无静态原语的Group
+AA15：router参数
+AC15：core参数
+AG15：router参数
+AI15：core参数
+Z16：(0, 2)
+AA16：Send_PI_en = 1
+AB16：发送即时原语请求使能
+AC16：Receive_PI_addr_base
+AD16：即时原语在Mem2中的保存地址（16B寻址）
+AF16：(0, 0)
+AG16：Send_PI_en
+AH16：发送即时原语请求使能
+AI16：Receive_PI_addr_base
+AJ16：即时原语在Mem2中的保存地址（16B寻址）
+AA17：Send_PI_num = 0
+AB17：发送即时原语请求的个数（0表示1）
+AC17：PI_CXY
+AD17：即时原语请求多播使能
+AG17：Send_PI_num
+AH17：发送即时原语请求的个数（0表示1）
+AI17：PI_CXY
+AJ17：即时原语请求多播使能
+AA18：Send_PI_addr_base = 0x350 >> 2
+AB18：即时原语路由包的存储地址（16B寻址）
+AC18：PI_Nx
+AD18：即时原语请求多播方向
+AG18：Send_PI_addr_base
+AH18：即时原语路由包的存储地址（16B寻址）
+AI18：PI_Nx
+AJ18：即时原语请求多播方向
+AC19：PI_NY
+AI19：PI_NY
+AA20：Receive_sign_en = 1
+AB20：接受即时原语应答使能
+AC20：PI_sign_CXY
+AD20：即时原语应答多播使能
+AG20：Receive_sign_en
+AH20：接受即时原语应答使能
+AI20：PI_sign_CXY
+AJ20：即时原语应答多播使能
+AA21：Receive_sign_num = 0
+AB21：接受即时原语应答的个数（0表示1）
+AC21：PI_sign_Nx
+AD21：即时原语应答多播方向
+AG21：Receive_sign_num
+AH21：接受即时原语应答的个数（0表示1）
+AI21：PI_sign_Nx
+AJ21：即时原语应答多播方向
+AA22：Receive_PI_addr_base
+AB22：即时原语在Mem2中的保存地址（16B寻址）
+AC22：PI_sign_Ny
+AG22：Receive_PI_addr_base
+AH22：即时原语在Mem2中的保存地址（16B寻址）
+AI22：PI_sign_Ny
+AA23：Back_sign_en
+AB23：返回即时原语应答使能
+AC23：instant_PI_en
+AG23：Back_sign_en = 1
+AH23：返回即时原语应答使能
+AI23：instant_PI_en
+AA24：Q
+AC24：fixed_instant_PI
+AG24：Q = 1
+AI24：fixed_instant_PI
+AC25：instant_PI_number
+AI25：instant_PI_number
+AC26：PI_loop_en
+AI26：PI_loop_en
+AA27：instant_prim_request = [((0, 0), (0, 1))]
+AB27：即时原语请求的目的core（只包含直接接受的目的core）
+AC27：start_instant_PI_num
+AD27：从第几个静态phase之后开始接收即时原语请求
+AG27：instant_prim_request
+AH27：即时原语请求的目的core（只包含直接接受的目的core）
+AI27：start_instant_PI_num
+AJ27：从第几个静态phase之后开始接收即时原语请求
+AA28：instant_request_back
+AB28：返回的即时原语应答的目的core（包含所有的目的core）
+AG28：instant_request_back = []
+AH28：返回的即时原语应答的目的core（包含所有的目的core）
+AA29：add_instant_pi()
+AB29：添加即时原语请求路由包
+AG29：add_instant_pi()
+AH29：添加即时原语请求路由包
+Z32：其他
+AA32：Send_PI_en = 0
+AB32：发送即时原语请求使能
+AC32：Receive_PI_addr_base
+AD32：即时原语在Mem2中的保存地址（16B寻址）
+AF32：其他
+AG32：Send_PI_en
+AH32：发送即时原语请求使能
+AI32：Receive_PI_addr_base
+AJ32：即时原语在Mem2中的保存地址（16B寻址）
+AA33：Send_PI_num
+AB33：发送即时原语请求的个数（0表示1）
+AC33：PI_CXY
+AD33：即时原语请求多播使能
+AG33：Send_PI_num
+AH33：发送即时原语请求的个数（0表示1）
+AI33：PI_CXY
+AJ33：即时原语请求多播使能
+AA34：Send_PI_addr_base
+AB34：即时原语路由包的存储地址（16B寻址）
+AC34：PI_Nx
+AD34：即时原语请求多播方向
+AG34：Send_PI_addr_base
+AH34：即时原语路由包的存储地址（16B寻址）
+AI34：PI_Nx
+AJ34：即时原语请求多播方向
+AC35：PI_NY
+AI35：PI_NY
+AA36：Receive_sign_en = 1
+AB36：接受即时原语应答使能
+AC36：PI_sign_CXY
+AD36：即时原语应答多播使能
+AG36：Receive_sign_en
+AH36：接受即时原语应答使能
+AI36：PI_sign_CXY
+AJ36：即时原语应答多播使能
+AA37：Receive_sign_num = 0
+AB37：接受即时原语应答的个数（0表示1）
+AC37：PI_sign_Nx
+AD37：即时原语应答多播方向
+AG37：Receive_sign_num
+AH37：接受即时原语应答的个数（0表示1）
+AI37：PI_sign_Nx
+AJ37：即时原语应答多播方向
+AA38：Receive_PI_addr_base = 0
+AB38：即时原语在Mem2中的保存地址（16B寻址）
+AC38：PI_sign_Ny
+AG38：Receive_PI_addr_base
+AH38：即时原语在Mem2中的保存地址（16B寻址）
+AI38：PI_sign_Ny
+AA39：Back_sign_en = 0
+AB39：返回即时原语应答使能
+AC39：instant_PI_en
+AG39：Back_sign_en
+AH39：返回即时原语应答使能
+AI39：instant_PI_en
+AA40：Q
+AC40：fixed_instant_PI
+AG40：Q = 1
+AI40：fixed_instant_PI
+AC41：instant_PI_number
+AI41：instant_PI_number
+AC42：PI_loop_en
+AI42：PI_loop_en
+AA43：instant_prim_request
+AB43：即时原语请求的目的core（只包含直接接受的目的core）
+AC43：start_instant_PI_num
+AD43：从第几个静态phase之后开始接收即时原语请求
+AG43：instant_prim_request
+AH43：即时原语请求的目的core（只包含直接接受的目的core）
+AI43：start_instant_PI_num
+AJ43：从第几个静态phase之后开始接收即时原语请求
+AA44：instant_request_back
+AB44：返回的即时原语应答的目的core（包含所有的目的core）
+AG44：instant_request_back
+AH44：返回的即时原语应答的目的core（包含所有的目的core）
+AA45：add_instant_pi()
+AB45：添加即时原语请求路由包
+AG45：add_instant_pi()
+AH45：添加即时原语请求路由包

@@ -1,0 +1,300 @@
+[
+  {
+    "id": "D01",
+    "source": "C:\\Users\\14394\\Documents\\Vaults\\MyVault\\40-课程\\TIC3\\tianjic_x1_software_0814\\documents\\detection.pptx",
+    "extracted": "C:\\Users\\14394\\Documents\\Vaults\\MyVault\\40-课程\\TIC3\\tianjic_x1_software_0814\\研究笔记\\文献调研\\_工作材料\\提取\\D01",
+    "sha256": "431e64fc70fa2fa0eb655314d3a66c17b6a3632d3f385b429bb8317166aecd8c",
+    "slides": 23,
+    "image_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "media": 0,
+    "limitation": "Text and media extraction does not verify diagram connections or visual layout."
+  },
+  {
+    "id": "D02",
+    "source": "C:\\Users\\14394\\Documents\\Vaults\\MyVault\\40-课程\\TIC3\\tianjic_x1_software_0814\\documents\\detection动态数据接收需求.pptx",
+    "extracted": "C:\\Users\\14394\\Documents\\Vaults\\MyVault\\40-课程\\TIC3\\tianjic_x1_software_0814\\研究笔记\\文献调研\\_工作材料\\提取\\D02",
+    "sha256": "8928c356dbd65f220e13698dfee99d24a39939137aece75382e33de388cef2be",
+    "slides": 2,
+    "image_counts": [
+      0,
+      0
+    ],
+    "media": 0,
+    "limitation": "Text and media extraction does not verify diagram connections or visual layout."
+  },
+  {
+    "id": "D03",
+    "source": "C:\\Users\\14394\\Documents\\Vaults\\MyVault\\40-课程\\TIC3\\tianjic_x1_software_0814\\documents\\GRU.pptx",
+    "extracted": "C:\\Users\\14394\\Documents\\Vaults\\MyVault\\40-课程\\TIC3\\tianjic_x1_software_0814\\研究笔记\\文献调研\\_工作材料\\提取\\D03",
+    "sha256": "17513650c8ab9f56dff94005ea9070c3447d18f854a8ea4fbf5793564659c072",
+    "slides": 15,
+    "image_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "media": 0,
+    "limitation": "Text and media extraction does not verify diagram connections or visual layout."
+  },
+  {
+    "id": "D04",
+    "source": "C:\\Users\\14394\\Documents\\Vaults\\MyVault\\40-课程\\TIC3\\tianjic_x1_software_0814\\documents\\LCP.pptx",
+    "extracted": "C:\\Users\\14394\\Documents\\Vaults\\MyVault\\40-课程\\TIC3\\tianjic_x1_software_0814\\研究笔记\\文献调研\\_工作材料\\提取\\D04",
+    "sha256": "30e7aaf5a442204da50734344213d7f40ce825c3a13d491f102fec4425361181",
+    "slides": 33,
+    "image_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "media": 0,
+    "limitation": "Text and media extraction does not verify diagram connections or visual layout."
+  },
+  {
+    "id": "D05",
+    "source": "C:\\Users\\14394\\Documents\\Vaults\\MyVault\\40-课程\\TIC3\\tianjic_x1_software_0814\\documents\\lenet.pptx",
+    "extracted": "C:\\Users\\14394\\Documents\\Vaults\\MyVault\\40-课程\\TIC3\\tianjic_x1_software_0814\\研究笔记\\文献调研\\_工作材料\\提取\\D05",
+    "sha256": "17fa6a1c58b1d23b1cc82f74d2f4c38582b41f354dae06f4e9b1175190271bf9",
+    "slides": 6,
+    "image_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "media": 0,
+    "limitation": "Text and media extraction does not verify diagram connections or visual layout."
+  },
+  {
+    "id": "D06",
+    "source": "C:\\Users\\14394\\Documents\\Vaults\\MyVault\\40-课程\\TIC3\\tianjic_x1_software_0814\\documents\\mapping.xlsx",
+    "extracted": "C:\\Users\\14394\\Documents\\Vaults\\MyVault\\40-课程\\TIC3\\tianjic_x1_software_0814\\研究笔记\\文献调研\\_工作材料\\提取\\D06",
+    "sha256": "af34663476cd29ae6c5a2a1455ac5a77bccb86b4d9ed34dac0ce317a29bd213e",
+    "sheets": [
+      {
+        "name": "Sheet3",
+        "range": "A1:AN15",
+        "nonempty_cells": 38
+      },
+      {
+        "name": "Sheet2",
+        "range": "A1:AN15",
+        "nonempty_cells": 27
+      },
+      {
+        "name": "Sheet1",
+        "range": "A1:AW45",
+        "nonempty_cells": 174
+      }
+    ]
+  },
+  {
+    "id": "D07",
+    "source": "C:\\Users\\14394\\Documents\\Vaults\\MyVault\\40-课程\\TIC3\\tianjic_x1_software_0814\\documents\\MLP-VGG-AlexNet.pptx",
+    "extracted": "C:\\Users\\14394\\Documents\\Vaults\\MyVault\\40-课程\\TIC3\\tianjic_x1_software_0814\\研究笔记\\文献调研\\_工作材料\\提取\\D07",
+    "sha256": "4bbc15700086ddf85b7ca264ff132f393ad57a1d872882a7a553ec6b63394131",
+    "slides": 11,
+    "image_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "media": 0,
+    "limitation": "Text and media extraction does not verify diagram connections or visual layout."
+  },
+  {
+    "id": "D08",
+    "source": "C:\\Users\\14394\\Documents\\Vaults\\MyVault\\40-课程\\TIC3\\tianjic_x1_software_0814\\documents\\mobilenet.pptx",
+    "extracted": "C:\\Users\\14394\\Documents\\Vaults\\MyVault\\40-课程\\TIC3\\tianjic_x1_software_0814\\研究笔记\\文献调研\\_工作材料\\提取\\D08",
+    "sha256": "b857baad53557c423c0f653bf4af57d7b29144fd2abc40a938a2a35190445a4e",
+    "slides": 23,
+    "image_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "media": 0,
+    "limitation": "Text and media extraction does not verify diagram connections or visual layout."
+  },
+  {
+    "id": "D09",
+    "source": "C:\\Users\\14394\\Documents\\Vaults\\MyVault\\40-课程\\TIC3\\tianjic_x1_software_0814\\documents\\NSM.pptx",
+    "extracted": "C:\\Users\\14394\\Documents\\Vaults\\MyVault\\40-课程\\TIC3\\tianjic_x1_software_0814\\研究笔记\\文献调研\\_工作材料\\提取\\D09",
+    "sha256": "104c5b0d39979967ea5861788989541ef2117e2f602f327b957d4380cd78d21c",
+    "slides": 2,
+    "image_counts": [
+      0,
+      0
+    ],
+    "media": 0,
+    "limitation": "Text and media extraction does not verify diagram connections or visual layout."
+  },
+  {
+    "id": "D12",
+    "source": "C:\\Users\\14394\\Documents\\Vaults\\MyVault\\40-课程\\TIC3\\tianjic_x1_software_0814\\documents\\ResNet50_5chip.xlsx",
+    "extracted": "C:\\Users\\14394\\Documents\\Vaults\\MyVault\\40-课程\\TIC3\\tianjic_x1_software_0814\\研究笔记\\文献调研\\_工作材料\\提取\\D12",
+    "sha256": "fa8ea59b2ae9a317b07fdcaea9083ad9a3cc1b17e46524faee5165eb433ca82a",
+    "sheets": [
+      {
+        "name": "Sheet1",
+        "range": "A1:BJ44",
+        "nonempty_cells": 152
+      },
+      {
+        "name": "Sheet2",
+        "range": "A1:BJ44",
+        "nonempty_cells": 147
+      }
+    ]
+  },
+  {
+    "id": "D13",
+    "source": "C:\\Users\\14394\\Documents\\Vaults\\MyVault\\40-课程\\TIC3\\tianjic_x1_software_0814\\documents\\resnet图片分类演示---预处理&拆包组包.pptx",
+    "extracted": "C:\\Users\\14394\\Documents\\Vaults\\MyVault\\40-课程\\TIC3\\tianjic_x1_software_0814\\研究笔记\\文献调研\\_工作材料\\提取\\D13",
+    "sha256": "601d7f8e87b542b3f370ea8b186ac4cc3e3bf5a55be3661d47faf85a268b9c75",
+    "slides": 16,
+    "image_counts": [
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "media": 20,
+    "limitation": "Text and media extraction does not verify diagram connections or visual layout."
+  },
+  {
+    "id": "D14",
+    "source": "C:\\Users\\14394\\Documents\\Vaults\\MyVault\\40-课程\\TIC3\\tianjic_x1_software_0814\\documents\\soundtracking动态数据接收需求.pptx",
+    "extracted": "C:\\Users\\14394\\Documents\\Vaults\\MyVault\\40-课程\\TIC3\\tianjic_x1_software_0814\\研究笔记\\文献调研\\_工作材料\\提取\\D14",
+    "sha256": "7e9a701aec0f74538f6316a18691419ffc0d79ed21929edb9454486eb3ba808f",
+    "slides": 3,
+    "image_counts": [
+      0,
+      1,
+      3
+    ],
+    "media": 4,
+    "limitation": "Text and media extraction does not verify diagram connections or visual layout."
+  },
+  {
+    "id": "D15",
+    "source": "C:\\Users\\14394\\Documents\\Vaults\\MyVault\\40-课程\\TIC3\\tianjic_x1_software_0814\\documents\\区别不同网络的输出.pptx",
+    "extracted": "C:\\Users\\14394\\Documents\\Vaults\\MyVault\\40-课程\\TIC3\\tianjic_x1_software_0814\\研究笔记\\文献调研\\_工作材料\\提取\\D15",
+    "sha256": "86de86a2c6d83ccf3a1941ff4b5008317304fe5d5a70ff44c1b575a632232f47",
+    "slides": 2,
+    "image_counts": [
+      1,
+      2
+    ],
+    "media": 3,
+    "limitation": "Text and media extraction does not verify diagram connections or visual layout."
+  }
+]

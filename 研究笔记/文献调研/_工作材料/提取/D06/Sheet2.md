@@ -1,0 +1,33 @@
+
+## 工作表 Sheet2
+
+范围：D1:AN15
+合并：[]
+
+H2：Serdes W
+P2：Serdes N
+AB2：Serdes W
+AJ2：Serdes N
+Z4：G7
+AB4：G6
+AD4：G5
+AH4：G7
+AJ4：G6
+AL4：G5
+AB5：G4
+AJ5：G4
+AB6：G3
+AJ6：G3
+AB7：G2
+AJ7：G2
+AB8：G1
+AJ8：G1
+L9：G3
+J10：G2
+F12：G1
+H13：Serdes S
+P13：Serdes E
+AB13：Serdes S
+AJ13：Serdes E
+E14：Chip(0,0）
+Y14：Chip(0,0）

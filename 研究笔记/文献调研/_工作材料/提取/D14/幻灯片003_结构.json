@@ -1,0 +1,142 @@
+[
+  {
+    "type": "sp",
+    "identity": {
+      "id": "14",
+      "name": "文本框 13"
+    },
+    "text": "芯片路由发送",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "10889815",
+        "y": "0"
+      },
+      {
+        "tag": "ext",
+        "cx": "2339102",
+        "cy": "523220"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "16",
+      "name": "文本框 15"
+    },
+    "text": "Trigger\n上升沿之后，第一个\nphase\n，\n紫色\ncore\n会发送\n16B\n数据给\nFPGA\n（\n2\n个路由包）\n红色\ncore\n为一个假想\ncore\n，相当于实际中的\nFPGA\n。紫色\ncore\n会向红色\ncore\n发送这\n16B\n的数据。\n相当于\nFPGA\n收到跨片数据包的时候：\nCoreID\n=4’d0;\nPayload[91:76] = 16’d0\n （即\n32bit\n的路由包头中\nX\n、\nY\n为\n0\n）",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "1092530",
+        "y": "902523"
+      },
+      {
+        "tag": "ext",
+        "cx": "12136388",
+        "cy": "7387728"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "pic",
+    "identity": {
+      "id": "2",
+      "name": "图片 1"
+    },
+    "text": "",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "14390481",
+        "y": "172441"
+      },
+      {
+        "tag": "ext",
+        "cx": "9782175",
+        "cy": "7124700"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "pic",
+    "identity": {
+      "id": "5",
+      "name": "图片 4"
+    },
+    "text": "",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "13228918",
+        "y": "7825839"
+      },
+      {
+        "tag": "ext",
+        "cx": "10943737",
+        "cy": "2181349"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "pic",
+    "identity": {
+      "id": "6",
+      "name": "图片 5"
+    },
+    "text": "",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "13668498",
+        "y": "11063362"
+      },
+      {
+        "tag": "ext",
+        "cx": "10103427",
+        "cy": "1570127"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  }
+]

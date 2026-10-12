@@ -1,0 +1,86 @@
+[
+  {
+    "type": "pic",
+    "identity": {
+      "id": "4",
+      "name": "图片 3"
+    },
+    "text": "",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "469819",
+        "y": "744245"
+      },
+      {
+        "tag": "ext",
+        "cx": "5199430",
+        "cy": "1036372"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "pic",
+    "identity": {
+      "id": "5",
+      "name": "图片 4"
+    },
+    "text": "",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "334677",
+        "y": "3750882"
+      },
+      {
+        "tag": "ext",
+        "cx": "4976732",
+        "cy": "773410"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "6",
+      "name": "文本框 5"
+    },
+    "text": "FPGA\n收到的数据包是左上图所示的\n128bits\n的跨片数据包，其中\n96bits\n是有效的片间路由包。\n片间路由包\n96bits\n中，前\n32bits\n是路由包头，包头格式如左下图所示，其中\nX\n，\nY\n可以用来区分不同的网络的输出。\n规定：\n当\nY=1\n时，表示数据包是由\n网络\n1\n发出的；\n当\nY=2\n时，表示数据包是由\n网络\n2\n发出的；\n当\nY=3\n时，表示数据包是由\n网络\n3\n发出的；",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "6376945",
+        "y": "1184744"
+      },
+      {
+        "tag": "ext",
+        "cx": "5231958",
+        "cy": "3416320"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  }
+]

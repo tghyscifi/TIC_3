@@ -1,0 +1,115 @@
+[
+  {
+    "type": "sp",
+    "identity": {
+      "id": "2",
+      "name": "标题 1"
+    },
+    "text": "预处理\n——\n算法实现",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "3",
+      "name": "内容占位符 2"
+    },
+    "text": "输入图像需要经过一定的预处理，使其呈现出较好的分布特性，然后才能交由神经网络处理\n图像预处理方法由算法决定！会相当大的影响精度\n下图是算法中使用的预处理方法",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "419100",
+        "y": "1219200"
+      },
+      {
+        "tag": "ext",
+        "cx": "8318988",
+        "cy": "4800600"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "4",
+      "name": "内容占位符 3"
+    },
+    "text": "",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "5",
+      "name": "AutoShape 2",
+      "descr": "6.png"
+    },
+    "text": "",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "4419600",
+        "y": "3276600"
+      },
+      {
+        "tag": "ext",
+        "cx": "304800",
+        "cy": "304800"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      },
+      {
+        "tag": "ext",
+        "uri": "{909E8E84-426E-40DD-AFC4-6F175D3DCCD1}"
+      }
+    ]
+  },
+  {
+    "type": "pic",
+    "identity": {
+      "id": "6",
+      "name": "图片 5"
+    },
+    "text": "",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "685800",
+        "y": "3452448"
+      },
+      {
+        "tag": "ext",
+        "cx": "7014576",
+        "cy": "1750646"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  }
+]

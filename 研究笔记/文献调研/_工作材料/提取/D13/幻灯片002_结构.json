@@ -1,0 +1,352 @@
+[
+  {
+    "type": "sp",
+    "identity": {
+      "id": "2",
+      "name": "标题 1"
+    },
+    "text": "整体流程",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "5",
+      "name": "AutoShape 2",
+      "descr": "6.png"
+    },
+    "text": "",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "4419600",
+        "y": "3276600"
+      },
+      {
+        "tag": "ext",
+        "cx": "304800",
+        "cy": "304800"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      },
+      {
+        "tag": "ext",
+        "uri": "{909E8E84-426E-40DD-AFC4-6F175D3DCCD1}"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "8",
+      "name": "内容占位符 7"
+    },
+    "text": "大致分为上述\n3\n个环节：\n预处理（按照算法要求，对图像归一化等）\n拆分（按照映射要求，对图像补\npad\n、拆分）\n组包（按照映射要求，分若干个\nphase\n，依次打包数据，然后按\nphase\n发送数据进入芯片）\n其中，\n1\n、\n2\n步骤目前已经固定；\n步骤\n3\n，因为涉及到分多少个\nphase\n发送进入芯片，每个\nphase\n发多少数据，目前给出的方案是最简单的模式，后续如果要提升芯片计算性能的话，可能需要更改映射配置，更改配置后，本步骤的打包方案也就会随之变化！\n建议：\n1.  FPGA\n实现时，三个步骤分不同的模块实现，互不影响。（尤其是第\n3\n个模块，后续可能会有改动）\n            2.  \n模块之间预留测试验证的接口，如通过\nUART\n把数据发回电脑等。每个模块设计完毕之后，\n可以通过测试接口，获取模块的输入和输出，对比输入、输出是否与预期的行为一致，一致的话，可以进行下一个模块设计与测试。",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "419100",
+        "y": "2147645"
+      },
+      {
+        "tag": "ext",
+        "cx": "8305800",
+        "cy": "4405551"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "9",
+      "name": "矩形 8"
+    },
+    "text": "摄像头采集的图片数据",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "1219200",
+        "y": "1447800"
+      },
+      {
+        "tag": "ext",
+        "cx": "952500",
+        "cy": "457200"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      },
+      {
+        "tag": "headEnd",
+        "type": "none",
+        "w": "med",
+        "len": "med"
+      },
+      {
+        "tag": "tailEnd",
+        "type": "none",
+        "w": "med",
+        "len": "med"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "10",
+      "name": "矩形 9"
+    },
+    "text": "预处理",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "2933700",
+        "y": "1447800"
+      },
+      {
+        "tag": "ext",
+        "cx": "952500",
+        "cy": "457200"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      },
+      {
+        "tag": "headEnd",
+        "type": "none",
+        "w": "med",
+        "len": "med"
+      },
+      {
+        "tag": "tailEnd",
+        "type": "none",
+        "w": "med",
+        "len": "med"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "11",
+      "name": "矩形 10"
+    },
+    "text": "拆分",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "4742328",
+        "y": "1447800"
+      },
+      {
+        "tag": "ext",
+        "cx": "952500",
+        "cy": "457200"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      },
+      {
+        "tag": "headEnd",
+        "type": "none",
+        "w": "med",
+        "len": "med"
+      },
+      {
+        "tag": "tailEnd",
+        "type": "none",
+        "w": "med",
+        "len": "med"
+      }
+    ]
+  },
+  {
+    "type": "cxnSp",
+    "identity": {
+      "id": "15",
+      "name": "直接箭头连接符 14"
+    },
+    "text": "",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "2171700",
+        "y": "1690446"
+      },
+      {
+        "tag": "ext",
+        "cx": "762000",
+        "cy": "0"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "straightConnector1"
+      },
+      {
+        "tag": "headEnd",
+        "type": "none",
+        "w": "med",
+        "len": "med"
+      },
+      {
+        "tag": "tailEnd",
+        "type": "triangle"
+      }
+    ]
+  },
+  {
+    "type": "cxnSp",
+    "identity": {
+      "id": "17",
+      "name": "直接箭头连接符 16"
+    },
+    "text": "",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "3886200",
+        "y": "1690446"
+      },
+      {
+        "tag": "ext",
+        "cx": "856129",
+        "cy": "0"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "straightConnector1"
+      },
+      {
+        "tag": "headEnd",
+        "type": "none",
+        "w": "med",
+        "len": "med"
+      },
+      {
+        "tag": "tailEnd",
+        "type": "triangle"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "20",
+      "name": "矩形 19"
+    },
+    "text": "组包（按要求的\nphase\n顺序发送）\n）",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "6248400",
+        "y": "1447800"
+      },
+      {
+        "tag": "ext",
+        "cx": "1676400",
+        "cy": "457200"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      },
+      {
+        "tag": "headEnd",
+        "type": "none",
+        "w": "med",
+        "len": "med"
+      },
+      {
+        "tag": "tailEnd",
+        "type": "none",
+        "w": "med",
+        "len": "med"
+      }
+    ]
+  },
+  {
+    "type": "cxnSp",
+    "identity": {
+      "id": "21",
+      "name": "直接箭头连接符 20"
+    },
+    "text": "",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "stCxn",
+        "id": "11",
+        "idx": "3"
+      },
+      {
+        "tag": "off",
+        "x": "5694828",
+        "y": "1676400"
+      },
+      {
+        "tag": "ext",
+        "cx": "553572",
+        "cy": "0"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "straightConnector1"
+      },
+      {
+        "tag": "headEnd",
+        "type": "none",
+        "w": "med",
+        "len": "med"
+      },
+      {
+        "tag": "tailEnd",
+        "type": "triangle"
+      }
+    ]
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "type": "sp",
+    "identity": {
+      "id": "4",
+      "name": "文本框 3"
+    },
+    "text": "输入数据为：\n8*257*41  \n（通道\n * \n高度 \n* \n宽度）\n输入数据首先通道方向补\n8\n个零，成为\n16*257*41\n的数据\n（前\n8\n通道为真实的输入数据，后\n8\n通道全为\n0\n）\n数据宽度拆\n4\n份，高度不拆分\n1-41\n的宽度拆分为：\n1-10\t\t11-20\t21-30\t31-41\n（\n10\n列）\n\t\n（\n10\n列）\n\t\n（\n10\n列）\n\t\n（\n11\n列）\n分别的数据量为：\n16*257*10\t16*257*10\t16*257*10\t16*257*11\n（\n41120B\t\t41120B\t\t41120B\t\t45232B\n）\n分\n4\n个\nphase\n发入芯片，每个\nphase\n发送的数据量为：\n10240B\t\t10240B\t\t 10240B\t\t 11264B\n10240B\t\t 10240B\t\t 10240B\t\t 11264B\n10240B\t\t 10240B\t\t 10240B\t\t 11264B\n10400B\t\t 10400B \t\t 10400B \t\t 11440B\n分别发送到的目的\ncore\n的绝对坐标为：\n(0, 0)\t\t(1, 0)\t\t(2, 0)\t\t(3, 0)",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "1092529",
+        "y": "902523"
+      },
+      {
+        "tag": "ext",
+        "cx": "14547273",
+        "cy": "11418510"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "pic",
+    "identity": {
+      "id": "2",
+      "name": "图片 1"
+    },
+    "text": "",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "14346567",
+        "y": "2394300"
+      },
+      {
+        "tag": "ext",
+        "cx": "8848725",
+        "cy": "6219825"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "3",
+      "name": "文本框 2"
+    },
+    "text": "蓝色的\ncore\n为\n4\n个发送的目标\ncore",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "17266722",
+        "y": "9108374"
+      },
+      {
+        "tag": "ext",
+        "cx": "3518912",
+        "cy": "369332"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "5",
+      "name": "文本框 4"
+    },
+    "text": "芯片路由接收",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "10889815",
+        "y": "0"
+      },
+      {
+        "tag": "ext",
+        "cx": "2339102",
+        "cy": "523220"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "6",
+      "name": "文本框 5"
+    },
+    "text": "数据包打包的时候，每个\nphase\n的最后一个包的\nP\n应该为\n1",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "15350591",
+        "y": "10446818"
+      },
+      {
+        "tag": "ext",
+        "cx": "5942652",
+        "cy": "369332"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  }
+]

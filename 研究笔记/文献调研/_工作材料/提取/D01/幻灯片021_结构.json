@@ -1,0 +1,26 @@
+[
+  {
+    "type": "sp",
+    "identity": {
+      "id": "114",
+      "name": "CustomShape 1"
+    },
+    "text": "Group6 Mouse",
+    "geometry": [
+      {
+        "tag": "off",
+        "x": "1206360",
+        "y": "2575080"
+      },
+      {
+        "tag": "ext",
+        "cx": "21970440",
+        "cy": "4647600"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  }
+]

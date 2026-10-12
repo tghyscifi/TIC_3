@@ -1,0 +1,82 @@
+[
+  {
+    "type": "sp",
+    "identity": {
+      "id": "2",
+      "name": "标题 1"
+    },
+    "text": "3. \n测试方案",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "3",
+      "name": "内容占位符 2"
+    },
+    "text": "这些包每个\nphase\n接收\ncore\n需要\n收到\n1\n个结束标志\n（打包时，关于结束标志需要注意）",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "419100",
+        "y": "1219200"
+      },
+      {
+        "tag": "ext",
+        "cx": "4305300",
+        "cy": "4800600"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "4",
+      "name": "内容占位符 3"
+    },
+    "text": "",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      }
+    ]
+  },
+  {
+    "type": "pic",
+    "identity": {
+      "id": "5",
+      "name": "图片 4"
+    },
+    "text": "",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "5076215",
+        "y": "1341253"
+      },
+      {
+        "tag": "ext",
+        "cx": "3661873",
+        "cy": "2276475"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  }
+]

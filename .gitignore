@@ -1,0 +1,12 @@
+temp
+*.pyc
+**/Out_files/
+.vscode
+.idea
+**/__pycache__/
+**/sound_tracking/top_sound_tracking_debug.py
+**/sound_tracking/g1_4cores_debug.py
+**/snns_mapping/mlp_lif.py
+.prototype_deps/
+.prototype_deps_tianjic/
+prototype_runs/

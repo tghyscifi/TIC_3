@@ -1,0 +1,1436 @@
+test_onnx测试用例说明:
+
+chip (0, 0)执行1个step, 7个phase group
+
+phase group 0 执行2个core,执行1个静态原语phase,执行0个即时原语phase,每个phase执行的时钟数为200000个clock
+
+phase group 1 执行1个core,执行1个静态原语phase,执行0个即时原语phase,每个phase执行的时钟数为200000个clock
+
+phase group 2 执行1个core,执行1个静态原语phase,执行0个即时原语phase,每个phase执行的时钟数为200000个clock
+
+phase group 3 执行1个core,执行1个静态原语phase,执行0个即时原语phase,每个phase执行的时钟数为200000个clock
+
+phase group 4 执行1个core,执行1个静态原语phase,执行0个即时原语phase,每个phase执行的时钟数为200000个clock
+
+phase group 5 执行1个core,执行1个静态原语phase,执行0个即时原语phase,每个phase执行的时钟数为200000个clock
+
+phase group 6 执行8个core,执行1个静态原语phase,执行0个即时原语phase,每个phase执行的时钟数为200000个clock
+
+
+******************************************* separator *******************************************
+
+
+chip (0, 0)执行1个step, 7个phase group
+
+phase group 0 执行2个core,执行1个静态原语phase,执行0个即时原语phase,每个phase执行的时钟数为200000个clock
+
+chip(0,0),core(1,0) 第1个step,静态原语的 第1个phase的Soma1原语参数:
+PIC = 6
+PIC_Mode = 0
+Reset_Addr_in = 1
+Reset_Addr_out = 1
+Reset_Addr_ciso = 1
+Row_ck_on = 0
+Addr_Start_in = 0
+Addr_end_in = 48
+Addr_Start_out = 9216
+Addr_end_out = 9216
+Addr_Start_ciso = 4096
+Addr_end_ciso = 4096
+in_row_max = 0
+Km_num_in = 48
+Km_num_ciso = 0
+Km_num_out = 48
+num_in = 0
+num_ciso = 0
+num_out = 0
+type_in = 1
+type_out = 1
+in_cut_start = 0
+mem_sel = 1
+in_ciso_pipe_sel = 0
+************************
+Read_in_length = 196
+Read_ciso_length = 4
+Write_out_length = 196
+************************
+Addr_Start_in = 0x0
+Addr_end_in = 0xc0
+Addr_Start_out = 0x9000
+Addr_end_out = 0x90c0
+Addr_Start_ciso = 0x4000
+Addr_end_ciso = 0x4000
+
+chip(0,0),core(1,0) 第1个step,静态原语的 第1个phase的Router原语参数:
+PIC = 9
+Rhead_mode = 1
+CXY = 0
+Send_en = 1
+Receive_en = 0
+Dout_Mem_sel = 1
+Addr_Dout_base = 1024
+Addr_Dout_length = 0
+Addr_Rhead_base = 0
+Addr_Rhead_length = 0
+Addr_Din_base = 448
+Addr_Din_length = 1
+Send_number = 97
+Receive_number = 0
+Nx = 0
+Ny = 0
+Send_PI_en = 0
+Back_Sign_en = 0
+Send_PI_num = 0
+Receive_sign_num = 0
+Send_PI_addr_base = 0
+Relay_number = 0
+Q = 0
+T_mode = 1
+Receive_sign_en = 0
+Soma_in_en = 1
+************************
+************************
+Addr_Dout_base = 0x9000
+Addr_Dout_end = 0x9000
+Addr_Rhead_base = 0x8000
+Addr_Rhead_end = 0x8000
+Addr_Din_base = 0x8380
+Addr_Din_end = 0x8382
+
+chip(0,0),core(0,0) 第1个step,静态原语的 第1个phase的Router原语参数:
+PIC = 9
+Rhead_mode = 1
+CXY = 0
+Send_en = 0
+Receive_en = 1
+Dout_Mem_sel = 1
+Addr_Dout_base = 1024
+Addr_Dout_length = 0
+Addr_Rhead_base = 0
+Addr_Rhead_length = 0
+Addr_Din_base = 448
+Addr_Din_length = 1
+Send_number = 0
+Receive_number = 97
+Nx = 0
+Ny = 0
+Send_PI_en = 0
+Back_Sign_en = 0
+Send_PI_num = 0
+Receive_sign_num = 0
+Send_PI_addr_base = 0
+Relay_number = 0
+Q = 0
+T_mode = 1
+Receive_sign_en = 0
+Soma_in_en = 0
+************************
+************************
+Addr_Dout_base = 0x9000
+Addr_Dout_end = 0x9000
+Addr_Rhead_base = 0x8000
+Addr_Rhead_end = 0x8000
+Addr_Din_base = 0x8380
+Addr_Din_end = 0x8382
+
+phase group 1 执行1个core,执行1个静态原语phase,执行0个即时原语phase,每个phase执行的时钟数为200000个clock
+
+chip(0,0),core(0,0) 第1个step,静态原语的第1个phase的Axon原语参数:
+PIC = 129
+Reset_Addr_A = 1
+Reset_Addr_V = 1
+MAC_grp_num_last = 3
+InA_type = 1
+InB_type = 1
+Load_Bias = 2
+Addr_Bias_base = 1024
+Addr_InA_base = 0
+Addr_InA_end = 65
+Addr_InB_base = 1024
+Addr_V_base = 0
+Addr_V_end = 127
+L0_num = 0
+L1_num = 0
+L2_num = 0
+L3_num = 0
+L4_num = 7
+L5_num = 31
+Addr_InA_L1_step = 2
+Addr_InA_L2_step = 64
+Addr_InA_L3_step = 0
+Addr_InA_L4_step = 0
+Addr_InA_L5_step = 1
+Sx = 1
+Sy = 1
+Ex = 0
+Ey = 0
+pad_up = 2
+pad_down = 2
+pad_left = 2
+pad_right = 2
+A2S2_mode = 0
+************************
+Input_fm_Px = 28
+Input_fm_Py = 28
+Output_fm_Ox = 32
+Output_fm_Oy = 32
+Read_X_length = 256
+Read_Bias_length = 32
+Read_weight_length = 8
+Write_V_length = 32768
+************************
+Addr_Bias_base = 0x1000
+Addr_InA_base = 0x0
+Addr_InA_end = 0x104
+Addr_InB_base = 0x1000
+Addr_V_base = 0x0
+Addr_V_end = 0x7ffc
+
+chip(0,0),core(0,0) 第1个step,静态原语的 第1个phase的Soma1原语参数:
+PIC = 5
+PIC_Mode = 0
+Reset_Addr_X = 1
+Reset_Addr_Y = 1
+Row_ck_on = 1
+X_type = 0
+Y_type = 1
+Addr_X_Start = 0
+Addr_X_End = 127
+Addr_Y_Start = 0
+Addr_Y_End = 255
+X_Km_num = 1
+Kx_num = 1
+Ky_num = 1
+Y_Km_num = 0
+Ox_num = 15
+Oy_num = 15
+Kx_step = -1
+Ky_step = 59
+Km_step = -65
+Ox_step = -65
+Oy_step = -1
+Sx = 2
+Sy = 2
+pad_top = 0
+pad_down = 0
+pad_left = 0
+pad_right = 0
+CMP_C = 0
+X_cut_start = 0
+in_row_max = 1
+mem_sel = 0
+************************
+Input_fm_Px = 32
+Input_fm_Py = 32
+Output_fm_Ox = 16
+Output_fm_Oy = 16
+Read_X_length = 512
+Write_Y_length = 1024
+************************
+Addr_X_Start = 0x0
+Addr_X_End = 0x1fc
+Addr_Y_Start = 0x0
+Addr_Y_End = 0x3fc
+
+phase group 2 执行1个core,执行1个静态原语phase,执行0个即时原语phase,每个phase执行的时钟数为200000个clock
+
+chip(0,0),core(0,0) 第1个step,静态原语的第1个phase的Axon原语参数:
+PIC = 65
+Reset_Addr_A = 1
+Reset_Addr_V = 1
+MAC_grp_num_last = 1
+Load_Bias = 2
+Addr_Bias_base = 1024
+Addr_InA_base = 0
+Addr_InA_end = 195
+Addr_InB_base = 1024
+Addr_V_base = 0
+Addr_V_end = 111
+InA_type = 1
+InB_type = 1
+L0_num = 0
+L1_num = 0
+L2_num = 0
+L3_num = 0
+L4_num = 3
+L5_num = 13
+L0_num_in_last_row = 5
+Addr_InA_L1_step = 1
+Addr_InA_L2_step = 14
+Addr_InA_L3_step = 0
+Addr_InA_L4_step = 4
+Addr_InA_L5_step = 2
+Addr_InA_MAC_step = 1
+Sx = 1
+Sy = 1
+Ex = 0
+Ey = 0
+pad_top = 0
+pad_down = 0
+pad_left = 0
+pad_right = 0
+A2S2_mode = 0
+************************
+Input_fm_Px = 14
+Input_fm_Py = 14
+Output_fm_Ox = 14
+Output_fm_Oy = 14
+Read_X_length = 784
+Read_Bias_length = 32
+Read_weight_length = 48
+Write_V_length = 6272
+************************
+Addr_Bias_base = 0x1000
+Addr_InA_base = 0x0
+Addr_InA_end = 0x30c
+Addr_InB_base = 0x1000
+Addr_V_base = 0x0
+Addr_V_end = 0x187c
+
+chip(0,0),core(0,0) 第1个step,静态原语的 第1个phase的Soma1原语参数:
+PIC = 5
+PIC_Mode = 0
+Reset_Addr_X = 1
+Reset_Addr_Y = 1
+Row_ck_on = 1
+X_type = 0
+Y_type = 1
+Addr_X_Start = 0
+Addr_X_End = 111
+Addr_Y_Start = 0
+Addr_Y_End = 48
+X_Km_num = 3
+Kx_num = 1
+Ky_num = 1
+Y_Km_num = 0
+Ox_num = 6
+Oy_num = 6
+Kx_step = 1
+Ky_step = 49
+Km_step = -59
+Ox_step = -55
+Oy_step = 1
+Sx = 2
+Sy = 2
+pad_top = 0
+pad_down = 0
+pad_left = 0
+pad_right = 0
+CMP_C = 0
+X_cut_start = 0
+in_row_max = 1
+mem_sel = 0
+************************
+Input_fm_Px = 14
+Input_fm_Py = 14
+Output_fm_Ox = 7
+Output_fm_Oy = 7
+Read_X_length = 448
+Write_Y_length = 196
+************************
+Addr_X_Start = 0x0
+Addr_X_End = 0x1bc
+Addr_Y_Start = 0x0
+Addr_Y_End = 0xc0
+
+phase group 3 执行1个core,执行1个静态原语phase,执行0个即时原语phase,每个phase执行的时钟数为200000个clock
+
+chip(0,0),core(0,0) 第1个step,静态原语的第1个phase的Axon原语参数:
+PIC = 65
+Reset_Addr_A = 1
+Reset_Addr_V = 1
+MAC_grp_num_last = 0
+Load_Bias = 2
+Addr_Bias_base = 1024
+Addr_InA_base = 0
+Addr_InA_end = 24
+Addr_InB_base = 1024
+Addr_V_base = 0
+Addr_V_end = 29
+InA_type = 1
+InB_type = 1
+L0_num = 24
+L1_num = 0
+L2_num = 0
+L3_num = 3
+L4_num = 0
+L5_num = 0
+L0_num_in_last_row = 15
+Addr_InA_L1_step = 1
+Addr_InA_L2_step = 1
+Addr_InA_L3_step = -24
+Addr_InA_L4_step = 76
+Addr_InA_L5_step = 1
+Addr_InA_MAC_step = 25
+Sx = 1
+Sy = 1
+Ex = 0
+Ey = 0
+pad_top = 0
+pad_down = 0
+pad_left = 0
+pad_right = 0
+A2S2_mode = 0
+************************
+Input_fm_Px = 1
+Input_fm_Py = 1
+Output_fm_Ox = 1
+Output_fm_Oy = 1
+Read_X_length = 100
+Read_Bias_length = 128
+Read_weight_length = 12800
+Write_V_length = 128
+************************
+Addr_Bias_base = 0x1000
+Addr_InA_base = 0x0
+Addr_InA_end = 0x60
+Addr_InB_base = 0x1000
+Addr_V_base = 0x0
+Addr_V_end = 0x7c
+
+chip(0,0),core(0,0) 第1个step,静态原语的 第1个phase的Soma1原语参数:
+PIC = 5
+PIC_Mode = 0
+Reset_Addr_X = 1
+Reset_Addr_Y = 1
+Row_ck_on = 1
+X_type = 0
+Y_type = 1
+Addr_X_Start = 0
+Addr_X_End = 29
+Addr_Y_Start = 0
+Addr_Y_End = 7
+X_Km_num = 29
+Kx_num = 0
+Ky_num = 0
+Y_Km_num = 7
+Ox_num = 0
+Oy_num = 0
+Kx_step = 27
+Ky_step = 27
+Km_step = 1
+Ox_step = -1
+Oy_step = -1
+Sx = 1
+Sy = 1
+pad_top = 0
+pad_down = 0
+pad_left = 0
+pad_right = 0
+CMP_C = 0
+X_cut_start = 0
+in_row_max = 0
+mem_sel = 0
+************************
+Input_fm_Px = 1
+Input_fm_Py = 1
+Output_fm_Ox = 1
+Output_fm_Oy = 1
+Read_X_length = 120
+Write_Y_length = 32
+************************
+Addr_X_Start = 0x0
+Addr_X_End = 0x74
+Addr_Y_Start = 0x0
+Addr_Y_End = 0x1c
+
+phase group 4 执行1个core,执行1个静态原语phase,执行0个即时原语phase,每个phase执行的时钟数为200000个clock
+
+chip(0,0),core(0,0) 第1个step,静态原语的第1个phase的Axon原语参数:
+PIC = 65
+Reset_Addr_A = 1
+Reset_Addr_V = 1
+MAC_grp_num_last = 0
+Load_Bias = 2
+Addr_Bias_base = 1024
+Addr_InA_base = 0
+Addr_InA_end = 7
+Addr_InB_base = 1024
+Addr_V_base = 0
+Addr_V_end = 20
+InA_type = 1
+InB_type = 1
+L0_num = 7
+L1_num = 0
+L2_num = 0
+L3_num = 2
+L4_num = 0
+L5_num = 0
+L0_num_in_last_row = 7
+Addr_InA_L1_step = 1
+Addr_InA_L2_step = 1
+Addr_InA_L3_step = -7
+Addr_InA_L4_step = 25
+Addr_InA_L5_step = 1
+Addr_InA_MAC_step = 8
+Sx = 1
+Sy = 1
+Ex = 0
+Ey = 0
+pad_top = 0
+pad_down = 0
+pad_left = 0
+pad_right = 0
+A2S2_mode = 0
+************************
+Input_fm_Px = 1
+Input_fm_Py = 1
+Output_fm_Ox = 1
+Output_fm_Oy = 1
+Read_X_length = 32
+Read_Bias_length = 96
+Read_weight_length = 2880
+Write_V_length = 96
+************************
+Addr_Bias_base = 0x1000
+Addr_InA_base = 0x0
+Addr_InA_end = 0x1c
+Addr_InB_base = 0x1000
+Addr_V_base = 0x0
+Addr_V_end = 0x5c
+
+chip(0,0),core(0,0) 第1个step,静态原语的 第1个phase的Soma1原语参数:
+PIC = 5
+PIC_Mode = 0
+Reset_Addr_X = 1
+Reset_Addr_Y = 1
+Row_ck_on = 1
+X_type = 0
+Y_type = 1
+Addr_X_Start = 0
+Addr_X_End = 20
+Addr_Y_Start = 0
+Addr_Y_End = 5
+X_Km_num = 20
+Kx_num = 0
+Ky_num = 0
+Y_Km_num = 5
+Ox_num = 0
+Oy_num = 0
+Kx_step = 18
+Ky_step = 18
+Km_step = 1
+Ox_step = -2
+Oy_step = -2
+Sx = 1
+Sy = 1
+pad_top = 0
+pad_down = 0
+pad_left = 0
+pad_right = 0
+CMP_C = 0
+X_cut_start = 0
+in_row_max = 0
+mem_sel = 0
+************************
+Input_fm_Px = 1
+Input_fm_Py = 1
+Output_fm_Ox = 1
+Output_fm_Oy = 1
+Read_X_length = 84
+Write_Y_length = 24
+************************
+Addr_X_Start = 0x0
+Addr_X_End = 0x50
+Addr_Y_Start = 0x0
+Addr_Y_End = 0x14
+
+phase group 5 执行1个core,执行1个静态原语phase,执行0个即时原语phase,每个phase执行的时钟数为200000个clock
+
+chip(0,0),core(0,0) 第1个step,静态原语的第1个phase的Axon原语参数:
+PIC = 65
+Reset_Addr_A = 1
+Reset_Addr_V = 1
+MAC_grp_num_last = 0
+Load_Bias = 2
+Addr_Bias_base = 1024
+Addr_InA_base = 0
+Addr_InA_end = 5
+Addr_InB_base = 1024
+Addr_V_base = 0
+Addr_V_end = 7
+InA_type = 1
+InB_type = 1
+L0_num = 5
+L1_num = 0
+L2_num = 0
+L3_num = 0
+L4_num = 0
+L5_num = 0
+L0_num_in_last_row = 3
+Addr_InA_L1_step = 1
+Addr_InA_L2_step = 1
+Addr_InA_L3_step = -5
+Addr_InA_L4_step = 19
+Addr_InA_L5_step = 1
+Addr_InA_MAC_step = 6
+Sx = 1
+Sy = 1
+Ex = 0
+Ey = 0
+pad_top = 0
+pad_down = 0
+pad_left = 0
+pad_right = 0
+A2S2_mode = 0
+************************
+Input_fm_Px = 1
+Input_fm_Py = 1
+Output_fm_Ox = 1
+Output_fm_Oy = 1
+Read_X_length = 24
+Read_Bias_length = 32
+Read_weight_length = 672
+Write_V_length = 32
+************************
+Addr_Bias_base = 0x1000
+Addr_InA_base = 0x0
+Addr_InA_end = 0x14
+Addr_InB_base = 0x1000
+Addr_V_base = 0x0
+Addr_V_end = 0x1c
+
+phase group 6 执行8个core,执行1个静态原语phase,执行0个即时原语phase,每个phase执行的时钟数为200000个clock
+
+chip(0,0),core(0,1) 第1个step,静态原语的 第1个phase的Soma1原语参数:
+PIC = 6
+PIC_Mode = 0
+Reset_Addr_in = 1
+Reset_Addr_out = 1
+Reset_Addr_ciso = 1
+Row_ck_on = 0
+Addr_Start_in = 0
+Addr_end_in = 0
+Addr_Start_out = 9216
+Addr_end_out = 9216
+Addr_Start_ciso = 0
+Addr_end_ciso = 0
+in_row_max = 0
+Km_num_in = 0
+Km_num_ciso = 0
+Km_num_out = 0
+num_in = 0
+num_ciso = 0
+num_out = 0
+type_in = 1
+type_out = 1
+in_cut_start = 0
+mem_sel = 1
+in_ciso_pipe_sel = 0
+************************
+Read_in_length = 4
+Read_ciso_length = 4
+Write_out_length = 4
+************************
+Addr_Start_in = 0x0
+Addr_end_in = 0x0
+Addr_Start_out = 0x9000
+Addr_end_out = 0x9000
+Addr_Start_ciso = 0x0
+Addr_end_ciso = 0x0
+
+chip(0,0),core(0,1) 第1个step,静态原语的 第1个phase的Router原语参数:
+PIC = 9
+Rhead_mode = 1
+CXY = 0
+Send_en = 1
+Receive_en = 0
+Dout_Mem_sel = 1
+Addr_Dout_base = 1024
+Addr_Dout_length = 0
+Addr_Rhead_base = 0
+Addr_Rhead_length = 0
+Addr_Din_base = 448
+Addr_Din_length = 1
+Send_number = 1
+Receive_number = 0
+Nx = 0
+Ny = 0
+Send_PI_en = 0
+Back_Sign_en = 0
+Send_PI_num = 0
+Receive_sign_num = 0
+Send_PI_addr_base = 0
+Relay_number = 0
+Q = 0
+T_mode = 1
+Receive_sign_en = 0
+Soma_in_en = 1
+************************
+************************
+Addr_Dout_base = 0x9000
+Addr_Dout_end = 0x9000
+Addr_Rhead_base = 0x8000
+Addr_Rhead_end = 0x8000
+Addr_Din_base = 0x8380
+Addr_Din_end = 0x8382
+
+chip(0,0),core(1,1) 第1个step,静态原语的 第1个phase的Soma1原语参数:
+PIC = 6
+PIC_Mode = 0
+Reset_Addr_in = 1
+Reset_Addr_out = 1
+Reset_Addr_ciso = 1
+Row_ck_on = 0
+Addr_Start_in = 2104
+Addr_end_in = 2104
+Addr_Start_out = 9216
+Addr_end_out = 9216
+Addr_Start_ciso = 0
+Addr_end_ciso = 0
+in_row_max = 0
+Km_num_in = 0
+Km_num_ciso = 0
+Km_num_out = 0
+num_in = 0
+num_ciso = 0
+num_out = 0
+type_in = 1
+type_out = 1
+in_cut_start = 0
+mem_sel = 1
+in_ciso_pipe_sel = 0
+************************
+Read_in_length = 4
+Read_ciso_length = 4
+Write_out_length = 4
+************************
+Addr_Start_in = 0x20e0
+Addr_end_in = 0x20e0
+Addr_Start_out = 0x9000
+Addr_end_out = 0x9000
+Addr_Start_ciso = 0x0
+Addr_end_ciso = 0x0
+
+chip(0,0),core(1,1) 第1个step,静态原语的 第1个phase的Router原语参数:
+PIC = 9
+Rhead_mode = 1
+CXY = 0
+Send_en = 1
+Receive_en = 1
+Dout_Mem_sel = 1
+Addr_Dout_base = 1024
+Addr_Dout_length = 0
+Addr_Rhead_base = 0
+Addr_Rhead_length = 0
+Addr_Din_base = 448
+Addr_Din_length = 1
+Send_number = 1
+Receive_number = 0
+Nx = 0
+Ny = 0
+Send_PI_en = 0
+Back_Sign_en = 0
+Send_PI_num = 0
+Receive_sign_num = 0
+Send_PI_addr_base = 0
+Relay_number = 0
+Q = 0
+T_mode = 1
+Receive_sign_en = 0
+Soma_in_en = 1
+************************
+************************
+Addr_Dout_base = 0x9000
+Addr_Dout_end = 0x9000
+Addr_Rhead_base = 0x8000
+Addr_Rhead_end = 0x8000
+Addr_Din_base = 0x8380
+Addr_Din_end = 0x8382
+
+chip(0,0),core(1,1) 第1个step,静态原语的 第1个phase的Soma2原语参数:
+PIC = 6
+PIC_Mode = 0
+Reset_Addr_in = 1
+Reset_Addr_out = 1
+Reset_Addr_ciso = 1
+Row_ck_on = 0
+Addr_Start_in = 2104
+Addr_end_in = 2104
+Addr_Start_out = 0
+Addr_end_out = 0
+Addr_Start_ciso = 0
+Addr_end_ciso = 0
+in_row_max = 0
+Km_num_in = 0
+Km_num_ciso = 0
+Km_num_out = 0
+num_in = 0
+num_ciso = 0
+num_out = 0
+type_in = 1
+type_out = 1
+in_cut_start = 0
+mem_sel = 0
+in_ciso_pipe_sel = 0
+************************
+Read_in_length = 4
+Read_ciso_length = 4
+Write_out_length = 4
+************************
+Addr_Start_in = 0x20e0
+Addr_end_in = 0x20e0
+Addr_Start_out = 0x0
+Addr_end_out = 0x0
+Addr_Start_ciso = 0x0
+Addr_end_ciso = 0x0
+
+chip(0,0),core(2,1) 第1个step,静态原语的 第1个phase的Soma1原语参数:
+PIC = 6
+PIC_Mode = 0
+Reset_Addr_in = 1
+Reset_Addr_out = 1
+Reset_Addr_ciso = 1
+Row_ck_on = 0
+Addr_Start_in = 2104
+Addr_end_in = 2104
+Addr_Start_out = 9216
+Addr_end_out = 9216
+Addr_Start_ciso = 0
+Addr_end_ciso = 0
+in_row_max = 0
+Km_num_in = 0
+Km_num_ciso = 0
+Km_num_out = 0
+num_in = 0
+num_ciso = 0
+num_out = 0
+type_in = 1
+type_out = 1
+in_cut_start = 0
+mem_sel = 1
+in_ciso_pipe_sel = 0
+************************
+Read_in_length = 4
+Read_ciso_length = 4
+Write_out_length = 4
+************************
+Addr_Start_in = 0x20e0
+Addr_end_in = 0x20e0
+Addr_Start_out = 0x9000
+Addr_end_out = 0x9000
+Addr_Start_ciso = 0x0
+Addr_end_ciso = 0x0
+
+chip(0,0),core(2,1) 第1个step,静态原语的 第1个phase的Router原语参数:
+PIC = 9
+Rhead_mode = 1
+CXY = 0
+Send_en = 1
+Receive_en = 1
+Dout_Mem_sel = 1
+Addr_Dout_base = 1024
+Addr_Dout_length = 0
+Addr_Rhead_base = 0
+Addr_Rhead_length = 0
+Addr_Din_base = 448
+Addr_Din_length = 1
+Send_number = 1
+Receive_number = 0
+Nx = 0
+Ny = 0
+Send_PI_en = 0
+Back_Sign_en = 0
+Send_PI_num = 0
+Receive_sign_num = 0
+Send_PI_addr_base = 0
+Relay_number = 0
+Q = 0
+T_mode = 1
+Receive_sign_en = 0
+Soma_in_en = 1
+************************
+************************
+Addr_Dout_base = 0x9000
+Addr_Dout_end = 0x9000
+Addr_Rhead_base = 0x8000
+Addr_Rhead_end = 0x8000
+Addr_Din_base = 0x8380
+Addr_Din_end = 0x8382
+
+chip(0,0),core(2,1) 第1个step,静态原语的 第1个phase的Soma2原语参数:
+PIC = 6
+PIC_Mode = 0
+Reset_Addr_in = 1
+Reset_Addr_out = 1
+Reset_Addr_ciso = 1
+Row_ck_on = 0
+Addr_Start_in = 2104
+Addr_end_in = 2104
+Addr_Start_out = 0
+Addr_end_out = 0
+Addr_Start_ciso = 0
+Addr_end_ciso = 0
+in_row_max = 0
+Km_num_in = 0
+Km_num_ciso = 0
+Km_num_out = 0
+num_in = 0
+num_ciso = 0
+num_out = 0
+type_in = 1
+type_out = 1
+in_cut_start = 0
+mem_sel = 0
+in_ciso_pipe_sel = 0
+************************
+Read_in_length = 4
+Read_ciso_length = 4
+Write_out_length = 4
+************************
+Addr_Start_in = 0x20e0
+Addr_end_in = 0x20e0
+Addr_Start_out = 0x0
+Addr_end_out = 0x0
+Addr_Start_ciso = 0x0
+Addr_end_ciso = 0x0
+
+chip(0,0),core(3,1) 第1个step,静态原语的 第1个phase的Soma1原语参数:
+PIC = 6
+PIC_Mode = 0
+Reset_Addr_in = 1
+Reset_Addr_out = 1
+Reset_Addr_ciso = 1
+Row_ck_on = 0
+Addr_Start_in = 2104
+Addr_end_in = 2104
+Addr_Start_out = 9216
+Addr_end_out = 9216
+Addr_Start_ciso = 0
+Addr_end_ciso = 0
+in_row_max = 0
+Km_num_in = 0
+Km_num_ciso = 0
+Km_num_out = 0
+num_in = 0
+num_ciso = 0
+num_out = 0
+type_in = 1
+type_out = 1
+in_cut_start = 0
+mem_sel = 1
+in_ciso_pipe_sel = 0
+************************
+Read_in_length = 4
+Read_ciso_length = 4
+Write_out_length = 4
+************************
+Addr_Start_in = 0x20e0
+Addr_end_in = 0x20e0
+Addr_Start_out = 0x9000
+Addr_end_out = 0x9000
+Addr_Start_ciso = 0x0
+Addr_end_ciso = 0x0
+
+chip(0,0),core(3,1) 第1个step,静态原语的 第1个phase的Router原语参数:
+PIC = 9
+Rhead_mode = 1
+CXY = 0
+Send_en = 1
+Receive_en = 1
+Dout_Mem_sel = 1
+Addr_Dout_base = 1024
+Addr_Dout_length = 0
+Addr_Rhead_base = 0
+Addr_Rhead_length = 0
+Addr_Din_base = 448
+Addr_Din_length = 1
+Send_number = 1
+Receive_number = 0
+Nx = 0
+Ny = 0
+Send_PI_en = 0
+Back_Sign_en = 0
+Send_PI_num = 0
+Receive_sign_num = 0
+Send_PI_addr_base = 0
+Relay_number = 0
+Q = 0
+T_mode = 1
+Receive_sign_en = 0
+Soma_in_en = 1
+************************
+************************
+Addr_Dout_base = 0x9000
+Addr_Dout_end = 0x9000
+Addr_Rhead_base = 0x8000
+Addr_Rhead_end = 0x8000
+Addr_Din_base = 0x8380
+Addr_Din_end = 0x8382
+
+chip(0,0),core(3,1) 第1个step,静态原语的 第1个phase的Soma2原语参数:
+PIC = 6
+PIC_Mode = 0
+Reset_Addr_in = 1
+Reset_Addr_out = 1
+Reset_Addr_ciso = 1
+Row_ck_on = 0
+Addr_Start_in = 2104
+Addr_end_in = 2104
+Addr_Start_out = 0
+Addr_end_out = 0
+Addr_Start_ciso = 0
+Addr_end_ciso = 0
+in_row_max = 0
+Km_num_in = 0
+Km_num_ciso = 0
+Km_num_out = 0
+num_in = 0
+num_ciso = 0
+num_out = 0
+type_in = 1
+type_out = 1
+in_cut_start = 0
+mem_sel = 0
+in_ciso_pipe_sel = 0
+************************
+Read_in_length = 4
+Read_ciso_length = 4
+Write_out_length = 4
+************************
+Addr_Start_in = 0x20e0
+Addr_end_in = 0x20e0
+Addr_Start_out = 0x0
+Addr_end_out = 0x0
+Addr_Start_ciso = 0x0
+Addr_end_ciso = 0x0
+
+chip(0,0),core(4,1) 第1个step,静态原语的 第1个phase的Soma1原语参数:
+PIC = 6
+PIC_Mode = 0
+Reset_Addr_in = 1
+Reset_Addr_out = 1
+Reset_Addr_ciso = 1
+Row_ck_on = 0
+Addr_Start_in = 2104
+Addr_end_in = 2104
+Addr_Start_out = 9216
+Addr_end_out = 9216
+Addr_Start_ciso = 0
+Addr_end_ciso = 0
+in_row_max = 0
+Km_num_in = 0
+Km_num_ciso = 0
+Km_num_out = 0
+num_in = 0
+num_ciso = 0
+num_out = 0
+type_in = 1
+type_out = 1
+in_cut_start = 0
+mem_sel = 1
+in_ciso_pipe_sel = 0
+************************
+Read_in_length = 4
+Read_ciso_length = 4
+Write_out_length = 4
+************************
+Addr_Start_in = 0x20e0
+Addr_end_in = 0x20e0
+Addr_Start_out = 0x9000
+Addr_end_out = 0x9000
+Addr_Start_ciso = 0x0
+Addr_end_ciso = 0x0
+
+chip(0,0),core(4,1) 第1个step,静态原语的 第1个phase的Router原语参数:
+PIC = 9
+Rhead_mode = 1
+CXY = 0
+Send_en = 1
+Receive_en = 1
+Dout_Mem_sel = 1
+Addr_Dout_base = 1024
+Addr_Dout_length = 0
+Addr_Rhead_base = 0
+Addr_Rhead_length = 0
+Addr_Din_base = 448
+Addr_Din_length = 1
+Send_number = 1
+Receive_number = 0
+Nx = 0
+Ny = 0
+Send_PI_en = 0
+Back_Sign_en = 0
+Send_PI_num = 0
+Receive_sign_num = 0
+Send_PI_addr_base = 0
+Relay_number = 0
+Q = 0
+T_mode = 1
+Receive_sign_en = 0
+Soma_in_en = 1
+************************
+************************
+Addr_Dout_base = 0x9000
+Addr_Dout_end = 0x9000
+Addr_Rhead_base = 0x8000
+Addr_Rhead_end = 0x8000
+Addr_Din_base = 0x8380
+Addr_Din_end = 0x8382
+
+chip(0,0),core(4,1) 第1个step,静态原语的 第1个phase的Soma2原语参数:
+PIC = 6
+PIC_Mode = 0
+Reset_Addr_in = 1
+Reset_Addr_out = 1
+Reset_Addr_ciso = 1
+Row_ck_on = 0
+Addr_Start_in = 2104
+Addr_end_in = 2104
+Addr_Start_out = 0
+Addr_end_out = 0
+Addr_Start_ciso = 0
+Addr_end_ciso = 0
+in_row_max = 0
+Km_num_in = 0
+Km_num_ciso = 0
+Km_num_out = 0
+num_in = 0
+num_ciso = 0
+num_out = 0
+type_in = 1
+type_out = 1
+in_cut_start = 0
+mem_sel = 0
+in_ciso_pipe_sel = 0
+************************
+Read_in_length = 4
+Read_ciso_length = 4
+Write_out_length = 4
+************************
+Addr_Start_in = 0x20e0
+Addr_end_in = 0x20e0
+Addr_Start_out = 0x0
+Addr_end_out = 0x0
+Addr_Start_ciso = 0x0
+Addr_end_ciso = 0x0
+
+chip(0,0),core(5,1) 第1个step,静态原语的 第1个phase的Soma1原语参数:
+PIC = 6
+PIC_Mode = 0
+Reset_Addr_in = 1
+Reset_Addr_out = 1
+Reset_Addr_ciso = 1
+Row_ck_on = 0
+Addr_Start_in = 2104
+Addr_end_in = 2104
+Addr_Start_out = 9216
+Addr_end_out = 9216
+Addr_Start_ciso = 0
+Addr_end_ciso = 0
+in_row_max = 0
+Km_num_in = 0
+Km_num_ciso = 0
+Km_num_out = 0
+num_in = 0
+num_ciso = 0
+num_out = 0
+type_in = 1
+type_out = 1
+in_cut_start = 0
+mem_sel = 1
+in_ciso_pipe_sel = 0
+************************
+Read_in_length = 4
+Read_ciso_length = 4
+Write_out_length = 4
+************************
+Addr_Start_in = 0x20e0
+Addr_end_in = 0x20e0
+Addr_Start_out = 0x9000
+Addr_end_out = 0x9000
+Addr_Start_ciso = 0x0
+Addr_end_ciso = 0x0
+
+chip(0,0),core(5,1) 第1个step,静态原语的 第1个phase的Router原语参数:
+PIC = 9
+Rhead_mode = 1
+CXY = 0
+Send_en = 1
+Receive_en = 1
+Dout_Mem_sel = 1
+Addr_Dout_base = 1024
+Addr_Dout_length = 0
+Addr_Rhead_base = 0
+Addr_Rhead_length = 0
+Addr_Din_base = 448
+Addr_Din_length = 1
+Send_number = 1
+Receive_number = 0
+Nx = 0
+Ny = 0
+Send_PI_en = 0
+Back_Sign_en = 0
+Send_PI_num = 0
+Receive_sign_num = 0
+Send_PI_addr_base = 0
+Relay_number = 0
+Q = 0
+T_mode = 1
+Receive_sign_en = 0
+Soma_in_en = 1
+************************
+************************
+Addr_Dout_base = 0x9000
+Addr_Dout_end = 0x9000
+Addr_Rhead_base = 0x8000
+Addr_Rhead_end = 0x8000
+Addr_Din_base = 0x8380
+Addr_Din_end = 0x8382
+
+chip(0,0),core(5,1) 第1个step,静态原语的 第1个phase的Soma2原语参数:
+PIC = 6
+PIC_Mode = 0
+Reset_Addr_in = 1
+Reset_Addr_out = 1
+Reset_Addr_ciso = 1
+Row_ck_on = 0
+Addr_Start_in = 2104
+Addr_end_in = 2104
+Addr_Start_out = 0
+Addr_end_out = 0
+Addr_Start_ciso = 0
+Addr_end_ciso = 0
+in_row_max = 0
+Km_num_in = 0
+Km_num_ciso = 0
+Km_num_out = 0
+num_in = 0
+num_ciso = 0
+num_out = 0
+type_in = 1
+type_out = 1
+in_cut_start = 0
+mem_sel = 0
+in_ciso_pipe_sel = 0
+************************
+Read_in_length = 4
+Read_ciso_length = 4
+Write_out_length = 4
+************************
+Addr_Start_in = 0x20e0
+Addr_end_in = 0x20e0
+Addr_Start_out = 0x0
+Addr_end_out = 0x0
+Addr_Start_ciso = 0x0
+Addr_end_ciso = 0x0
+
+chip(0,0),core(6,1) 第1个step,静态原语的 第1个phase的Soma1原语参数:
+PIC = 6
+PIC_Mode = 0
+Reset_Addr_in = 1
+Reset_Addr_out = 1
+Reset_Addr_ciso = 1
+Row_ck_on = 0
+Addr_Start_in = 2104
+Addr_end_in = 2104
+Addr_Start_out = 9216
+Addr_end_out = 9216
+Addr_Start_ciso = 0
+Addr_end_ciso = 0
+in_row_max = 0
+Km_num_in = 0
+Km_num_ciso = 0
+Km_num_out = 0
+num_in = 0
+num_ciso = 0
+num_out = 0
+type_in = 1
+type_out = 1
+in_cut_start = 0
+mem_sel = 1
+in_ciso_pipe_sel = 0
+************************
+Read_in_length = 4
+Read_ciso_length = 4
+Write_out_length = 4
+************************
+Addr_Start_in = 0x20e0
+Addr_end_in = 0x20e0
+Addr_Start_out = 0x9000
+Addr_end_out = 0x9000
+Addr_Start_ciso = 0x0
+Addr_end_ciso = 0x0
+
+chip(0,0),core(6,1) 第1个step,静态原语的 第1个phase的Router原语参数:
+PIC = 9
+Rhead_mode = 1
+CXY = 0
+Send_en = 1
+Receive_en = 1
+Dout_Mem_sel = 1
+Addr_Dout_base = 1024
+Addr_Dout_length = 0
+Addr_Rhead_base = 0
+Addr_Rhead_length = 0
+Addr_Din_base = 448
+Addr_Din_length = 1
+Send_number = 1
+Receive_number = 0
+Nx = 0
+Ny = 0
+Send_PI_en = 0
+Back_Sign_en = 0
+Send_PI_num = 0
+Receive_sign_num = 0
+Send_PI_addr_base = 0
+Relay_number = 0
+Q = 0
+T_mode = 1
+Receive_sign_en = 0
+Soma_in_en = 1
+************************
+************************
+Addr_Dout_base = 0x9000
+Addr_Dout_end = 0x9000
+Addr_Rhead_base = 0x8000
+Addr_Rhead_end = 0x8000
+Addr_Din_base = 0x8380
+Addr_Din_end = 0x8382
+
+chip(0,0),core(6,1) 第1个step,静态原语的 第1个phase的Soma2原语参数:
+PIC = 6
+PIC_Mode = 0
+Reset_Addr_in = 1
+Reset_Addr_out = 1
+Reset_Addr_ciso = 1
+Row_ck_on = 0
+Addr_Start_in = 2104
+Addr_end_in = 2104
+Addr_Start_out = 0
+Addr_end_out = 0
+Addr_Start_ciso = 0
+Addr_end_ciso = 0
+in_row_max = 0
+Km_num_in = 0
+Km_num_ciso = 0
+Km_num_out = 0
+num_in = 0
+num_ciso = 0
+num_out = 0
+type_in = 1
+type_out = 1
+in_cut_start = 0
+mem_sel = 0
+in_ciso_pipe_sel = 0
+************************
+Read_in_length = 4
+Read_ciso_length = 4
+Write_out_length = 4
+************************
+Addr_Start_in = 0x20e0
+Addr_end_in = 0x20e0
+Addr_Start_out = 0x0
+Addr_end_out = 0x0
+Addr_Start_ciso = 0x0
+Addr_end_ciso = 0x0
+
+chip(0,0),core(7,1) 第1个step,静态原语的 第1个phase的Soma1原语参数:
+PIC = 6
+PIC_Mode = 0
+Reset_Addr_in = 1
+Reset_Addr_out = 1
+Reset_Addr_ciso = 1
+Row_ck_on = 0
+Addr_Start_in = 2104
+Addr_end_in = 2104
+Addr_Start_out = 9216
+Addr_end_out = 9216
+Addr_Start_ciso = 0
+Addr_end_ciso = 0
+in_row_max = 0
+Km_num_in = 0
+Km_num_ciso = 0
+Km_num_out = 0
+num_in = 0
+num_ciso = 0
+num_out = 0
+type_in = 1
+type_out = 1
+in_cut_start = 0
+mem_sel = 1
+in_ciso_pipe_sel = 0
+************************
+Read_in_length = 4
+Read_ciso_length = 4
+Write_out_length = 4
+************************
+Addr_Start_in = 0x20e0
+Addr_end_in = 0x20e0
+Addr_Start_out = 0x9000
+Addr_end_out = 0x9000
+Addr_Start_ciso = 0x0
+Addr_end_ciso = 0x0
+
+chip(0,0),core(7,1) 第1个step,静态原语的 第1个phase的Router原语参数:
+PIC = 9
+Rhead_mode = 1
+CXY = 0
+Send_en = 1
+Receive_en = 1
+Dout_Mem_sel = 1
+Addr_Dout_base = 1024
+Addr_Dout_length = 0
+Addr_Rhead_base = 0
+Addr_Rhead_length = 0
+Addr_Din_base = 448
+Addr_Din_length = 1
+Send_number = 1
+Receive_number = 0
+Nx = 0
+Ny = 0
+Send_PI_en = 0
+Back_Sign_en = 0
+Send_PI_num = 0
+Receive_sign_num = 0
+Send_PI_addr_base = 0
+Relay_number = 0
+Q = 0
+T_mode = 1
+Receive_sign_en = 0
+Soma_in_en = 1
+************************
+************************
+Addr_Dout_base = 0x9000
+Addr_Dout_end = 0x9000
+Addr_Rhead_base = 0x8000
+Addr_Rhead_end = 0x8000
+Addr_Din_base = 0x8380
+Addr_Din_end = 0x8382
+
+chip(0,0),core(7,1) 第1个step,静态原语的 第1个phase的Soma2原语参数:
+PIC = 6
+PIC_Mode = 0
+Reset_Addr_in = 1
+Reset_Addr_out = 1
+Reset_Addr_ciso = 1
+Row_ck_on = 0
+Addr_Start_in = 2104
+Addr_end_in = 2104
+Addr_Start_out = 0
+Addr_end_out = 0
+Addr_Start_ciso = 0
+Addr_end_ciso = 0
+in_row_max = 0
+Km_num_in = 0
+Km_num_ciso = 0
+Km_num_out = 0
+num_in = 0
+num_ciso = 0
+num_out = 0
+type_in = 1
+type_out = 1
+in_cut_start = 0
+mem_sel = 0
+in_ciso_pipe_sel = 0
+************************
+Read_in_length = 4
+Read_ciso_length = 4
+Write_out_length = 4
+************************
+Addr_Start_in = 0x20e0
+Addr_end_in = 0x20e0
+Addr_Start_out = 0x0
+Addr_end_out = 0x0
+Addr_Start_ciso = 0x0
+Addr_end_ciso = 0x0

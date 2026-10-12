@@ -1,0 +1,106 @@
+[
+  {
+    "type": "sp",
+    "identity": {
+      "id": "117",
+      "name": "CustomShape 1"
+    },
+    "text": "Router",
+    "geometry": [
+      {
+        "tag": "off",
+        "x": "1206360",
+        "y": "1079640"
+      },
+      {
+        "tag": "ext",
+        "cx": "21970440",
+        "cy": "1434240"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "140",
+      "name": "CustomShape 24"
+    },
+    "text": "Core1\n将数据发给\nCore0\n32 * 4 / 8 = 16",
+    "geometry": [
+      {
+        "tag": "off",
+        "x": "9345597",
+        "y": "6350895"
+      },
+      {
+        "tag": "ext",
+        "cx": "5691965",
+        "cy": "1014209"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "3",
+      "name": "圆角矩形 2"
+    },
+    "text": "Core0",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "1509823",
+        "y": "3211033"
+      },
+      {
+        "tag": "ext",
+        "cx": "1616149",
+        "cy": "1616148"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "roundRect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "27",
+      "name": "圆角矩形 26"
+    },
+    "text": "Core1",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "3788734",
+        "y": "3211033"
+      },
+      {
+        "tag": "ext",
+        "cx": "1616149",
+        "cy": "1616148"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "roundRect"
+      }
+    ]
+  }
+]

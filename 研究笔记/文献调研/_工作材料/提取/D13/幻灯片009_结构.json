@@ -1,0 +1,1010 @@
+[
+  {
+    "type": "sp",
+    "identity": {
+      "id": "2",
+      "name": "标题 1"
+    },
+    "text": "2. \n拆分",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "3",
+      "name": "内容占位符 2"
+    },
+    "text": "处理步骤\n2. \n拆分（以下仅以一个通道为例，其他通道相同）\n2.1 \n列拆分     ",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "419100",
+        "y": "1219200"
+      },
+      {
+        "tag": "ext",
+        "cx": "8305800",
+        "cy": "4800600"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "3",
+      "name": "内容占位符 2"
+    },
+    "text": " ",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "419100",
+        "y": "1219200"
+      },
+      {
+        "tag": "ext",
+        "cx": "8305800",
+        "cy": "4800600"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "4",
+      "name": "内容占位符 3"
+    },
+    "text": "相当于竖着切开，数据成了两份。但是要注意的是，两部分数据中间是有交叠的，就是中间有一些列的数据既属于左边，也属于右边",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "419100",
+        "y": "5779529"
+      },
+      {
+        "tag": "ext",
+        "cx": "8305800",
+        "cy": "755403"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "23",
+      "name": "矩形 22"
+    },
+    "text": "",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "907204",
+        "y": "3004431"
+      },
+      {
+        "tag": "ext",
+        "cx": "2133600",
+        "cy": "2133600"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      },
+      {
+        "tag": "headEnd",
+        "type": "none",
+        "w": "med",
+        "len": "med"
+      },
+      {
+        "tag": "tailEnd",
+        "type": "none",
+        "w": "med",
+        "len": "med"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "24",
+      "name": "文本框 23"
+    },
+    "text": "W=230",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "1516804",
+        "y": "5366631"
+      },
+      {
+        "tag": "ext",
+        "cx": "922047",
+        "cy": "369332"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "25",
+      "name": "左大括号 24"
+    },
+    "text": "",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "1897803",
+        "y": "4211962"
+      },
+      {
+        "tag": "ext",
+        "cx": "152402",
+        "cy": "2133600"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "leftBrace"
+      },
+      {
+        "tag": "headEnd",
+        "type": "none",
+        "w": "med",
+        "len": "med"
+      },
+      {
+        "tag": "tailEnd",
+        "type": "none",
+        "w": "med",
+        "len": "med"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "26",
+      "name": "左大括号 25"
+    },
+    "text": "",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "678604",
+        "y": "3004431"
+      },
+      {
+        "tag": "ext",
+        "cx": "152402",
+        "cy": "2133600"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "leftBrace"
+      },
+      {
+        "tag": "headEnd",
+        "type": "none",
+        "w": "med",
+        "len": "med"
+      },
+      {
+        "tag": "tailEnd",
+        "type": "none",
+        "w": "med",
+        "len": "med"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "27",
+      "name": "文本框 26"
+    },
+    "text": "H=229",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "-115947",
+        "y": "3911965"
+      },
+      {
+        "tag": "ext",
+        "cx": "870751",
+        "cy": "369332"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "37",
+      "name": "矩形 36"
+    },
+    "text": "",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "3610180",
+        "y": "3004431"
+      },
+      {
+        "tag": "ext",
+        "cx": "2133600",
+        "cy": "2133600"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      },
+      {
+        "tag": "headEnd",
+        "type": "none",
+        "w": "med",
+        "len": "med"
+      },
+      {
+        "tag": "tailEnd",
+        "type": "none",
+        "w": "med",
+        "len": "med"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "38",
+      "name": "文本框 37"
+    },
+    "text": "W=230",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "4219780",
+        "y": "5366631"
+      },
+      {
+        "tag": "ext",
+        "cx": "922047",
+        "cy": "369332"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "39",
+      "name": "左大括号 38"
+    },
+    "text": "",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "4600779",
+        "y": "4211962"
+      },
+      {
+        "tag": "ext",
+        "cx": "152402",
+        "cy": "2133600"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "leftBrace"
+      },
+      {
+        "tag": "headEnd",
+        "type": "none",
+        "w": "med",
+        "len": "med"
+      },
+      {
+        "tag": "tailEnd",
+        "type": "none",
+        "w": "med",
+        "len": "med"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "42",
+      "name": "箭头: 右 41"
+    },
+    "text": "",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "3100766",
+        "y": "3267453"
+      },
+      {
+        "tag": "ext",
+        "cx": "459737",
+        "cy": "369332"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rightArrow"
+      },
+      {
+        "tag": "headEnd",
+        "type": "none",
+        "w": "med",
+        "len": "med"
+      },
+      {
+        "tag": "tailEnd",
+        "type": "none",
+        "w": "med",
+        "len": "med"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "45",
+      "name": "左大括号 44"
+    },
+    "text": "",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "4162052",
+        "y": "2218124"
+      },
+      {
+        "tag": "ext",
+        "cx": "152401",
+        "cy": "1256146"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "leftBrace"
+      },
+      {
+        "tag": "headEnd",
+        "type": "none",
+        "w": "med",
+        "len": "med"
+      },
+      {
+        "tag": "tailEnd",
+        "type": "none",
+        "w": "med",
+        "len": "med"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "46",
+      "name": "左大括号 45"
+    },
+    "text": "",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "5022484",
+        "y": "2037032"
+      },
+      {
+        "tag": "ext",
+        "cx": "186446",
+        "cy": "1256146"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "leftBrace"
+      },
+      {
+        "tag": "headEnd",
+        "type": "none",
+        "w": "med",
+        "len": "med"
+      },
+      {
+        "tag": "tailEnd",
+        "type": "none",
+        "w": "med",
+        "len": "med"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "8",
+      "name": "文本框 7"
+    },
+    "text": "",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "3769168",
+        "y": "2547916"
+      },
+      {
+        "tag": "ext",
+        "cx": "718466",
+        "cy": "276999"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "8",
+      "name": "文本框 7"
+    },
+    "text": " ",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "3769168",
+        "y": "2547916"
+      },
+      {
+        "tag": "ext",
+        "cx": "718466",
+        "cy": "276999"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "47",
+      "name": "文本框 46"
+    },
+    "text": "",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "4782594",
+        "y": "2281998"
+      },
+      {
+        "tag": "ext",
+        "cx": "888385",
+        "cy": "276999"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "47",
+      "name": "文本框 46"
+    },
+    "text": " ",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "4782594",
+        "y": "2281998"
+      },
+      {
+        "tag": "ext",
+        "cx": "888385",
+        "cy": "276999"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "20",
+      "name": "矩形 19"
+    },
+    "text": "",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "7717444",
+        "y": "2796061"
+      },
+      {
+        "tag": "ext",
+        "cx": "1256146",
+        "cy": "2133600"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      },
+      {
+        "tag": "headEnd",
+        "type": "none",
+        "w": "med",
+        "len": "med"
+      },
+      {
+        "tag": "tailEnd",
+        "type": "none",
+        "w": "med",
+        "len": "med"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "21",
+      "name": "矩形 20"
+    },
+    "text": "",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "6839990",
+        "y": "3036329"
+      },
+      {
+        "tag": "ext",
+        "cx": "1256146",
+        "cy": "2133600"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      },
+      {
+        "tag": "headEnd",
+        "type": "none",
+        "w": "med",
+        "len": "med"
+      },
+      {
+        "tag": "tailEnd",
+        "type": "none",
+        "w": "med",
+        "len": "med"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "22",
+      "name": "文本框 21"
+    },
+    "text": "W=230",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "7449590",
+        "y": "5398529"
+      },
+      {
+        "tag": "ext",
+        "cx": "922047",
+        "cy": "369332"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "28",
+      "name": "左大括号 27"
+    },
+    "text": "",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "7830589",
+        "y": "4243860"
+      },
+      {
+        "tag": "ext",
+        "cx": "152402",
+        "cy": "2133600"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "leftBrace"
+      },
+      {
+        "tag": "headEnd",
+        "type": "none",
+        "w": "med",
+        "len": "med"
+      },
+      {
+        "tag": "tailEnd",
+        "type": "none",
+        "w": "med",
+        "len": "med"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "31",
+      "name": "左大括号 30"
+    },
+    "text": "",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "7391862",
+        "y": "2250022"
+      },
+      {
+        "tag": "ext",
+        "cx": "152401",
+        "cy": "1256146"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "leftBrace"
+      },
+      {
+        "tag": "headEnd",
+        "type": "none",
+        "w": "med",
+        "len": "med"
+      },
+      {
+        "tag": "tailEnd",
+        "type": "none",
+        "w": "med",
+        "len": "med"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "32",
+      "name": "左大括号 31"
+    },
+    "text": "",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "8252294",
+        "y": "2068930"
+      },
+      {
+        "tag": "ext",
+        "cx": "186446",
+        "cy": "1256146"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "leftBrace"
+      },
+      {
+        "tag": "headEnd",
+        "type": "none",
+        "w": "med",
+        "len": "med"
+      },
+      {
+        "tag": "tailEnd",
+        "type": "none",
+        "w": "med",
+        "len": "med"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "33",
+      "name": "文本框 32"
+    },
+    "text": "",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "6998978",
+        "y": "2579814"
+      },
+      {
+        "tag": "ext",
+        "cx": "718466",
+        "cy": "276999"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "33",
+      "name": "文本框 32"
+    },
+    "text": " ",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "6998978",
+        "y": "2579814"
+      },
+      {
+        "tag": "ext",
+        "cx": "718466",
+        "cy": "276999"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "34",
+      "name": "文本框 33"
+    },
+    "text": "",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "8012404",
+        "y": "2313896"
+      },
+      {
+        "tag": "ext",
+        "cx": "888385",
+        "cy": "276999"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "34",
+      "name": "文本框 33"
+    },
+    "text": " ",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "8012404",
+        "y": "2313896"
+      },
+      {
+        "tag": "ext",
+        "cx": "888385",
+        "cy": "276999"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  },
+  {
+    "type": "cxnSp",
+    "identity": {
+      "id": "35",
+      "name": "直接箭头连接符 34"
+    },
+    "text": "",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "5773537",
+        "y": "3636911"
+      },
+      {
+        "tag": "ext",
+        "cx": "1028700",
+        "cy": "0"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "straightConnector1"
+      },
+      {
+        "tag": "headEnd",
+        "type": "none",
+        "w": "med",
+        "len": "med"
+      },
+      {
+        "tag": "tailEnd",
+        "type": "triangle"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "36",
+      "name": "文本框 35"
+    },
+    "text": "相当于",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "5846777",
+        "y": "3059668"
+      },
+      {
+        "tag": "ext",
+        "cx": "877163",
+        "cy": "369332"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  }
+]

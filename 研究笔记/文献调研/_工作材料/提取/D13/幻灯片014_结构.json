@@ -1,0 +1,116 @@
+[
+  {
+    "type": "sp",
+    "identity": {
+      "id": "2",
+      "name": "标题 1"
+    },
+    "text": "3. \n测试方案",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "3",
+      "name": "内容占位符 2"
+    },
+    "text": "（\n1\n）\n~\n（\n6\n）每个部分按\n0x81\n原语存储方式存为一维数据，每个的长度都应该是：\n（\n1\n）\n~\n（\n6\n）的数据分别发送到（\n0\n，\n0\n）\n~\n（\n5\n，\n0\n）\nCore\n中\nPhase 2\n：\n发送（\n1\n）数据中紧接着的\n9728\n（\n76*128\n）\nByte\n数据给\nCore\n（\n0\n，\n0\n）\n---\n（\n9768Byte\n数据可以组\n1221\n个路由包）\n其他同理",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "419100",
+        "y": "1219200"
+      },
+      {
+        "tag": "ext",
+        "cx": "4838700",
+        "cy": "4800600"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "3",
+      "name": "内容占位符 2"
+    },
+    "text": " ",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "419100",
+        "y": "1219200"
+      },
+      {
+        "tag": "ext",
+        "cx": "4838700",
+        "cy": "4800600"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "4",
+      "name": "内容占位符 3"
+    },
+    "text": "这六块数据，最终的目的是分别发送到六个\nCore\n中。\n由于一些限制，我们将每块数据分三次发送，每次发送大约\n1/3\n的数据量",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "5791200",
+        "y": "4343401"
+      },
+      {
+        "tag": "ext",
+        "cx": "2933700",
+        "cy": "2191532"
+      }
+    ]
+  },
+  {
+    "type": "pic",
+    "identity": {
+      "id": "5",
+      "name": "图片 4"
+    },
+    "text": "",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "5076215",
+        "y": "1341253"
+      },
+      {
+        "tag": "ext",
+        "cx": "3661873",
+        "cy": "2276475"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  }
+]

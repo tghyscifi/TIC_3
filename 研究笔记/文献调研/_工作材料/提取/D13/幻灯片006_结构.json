@@ -1,0 +1,97 @@
+[
+  {
+    "type": "sp",
+    "identity": {
+      "id": "2",
+      "name": "标题 1"
+    },
+    "text": "预处理\n——\n硬件实现",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "3",
+      "name": "内容占位符 2"
+    },
+    "text": "FPGA\n实现预处理\n，可以进行简化：\n首先读入的图像是\nRGB\n三通道图像，每个像素点是一个\nuint8\n的数据，范围为\n[0,255]\n。\n图像直接整形\nresize\n到\n224*224*3\n（对应算法实现中的\n2\n、\n3\n步）\n（合并算法实现中的\n4\n、\n5\n、\n6\n步）\n归一化\n：（以\nR\n通道为例）（\n实际可以保留一定的小数位数，在精度和硬件代价权衡。\n）\n*\n这里，\n的\nunsigned int8\n数据，得到的\n是一个\n[-128, 127]\n范围的\nint8\n数据",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "76200",
+        "y": "990600"
+      },
+      {
+        "tag": "ext",
+        "cx": "8915400",
+        "cy": "5562600"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "3",
+      "name": "内容占位符 2"
+    },
+    "text": " ",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "76200",
+        "y": "990600"
+      },
+      {
+        "tag": "ext",
+        "cx": "8915400",
+        "cy": "5562600"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "5",
+      "name": "AutoShape 2",
+      "descr": "6.png"
+    },
+    "text": "",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "4419600",
+        "y": "3276600"
+      },
+      {
+        "tag": "ext",
+        "cx": "304800",
+        "cy": "304800"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      },
+      {
+        "tag": "ext",
+        "uri": "{909E8E84-426E-40DD-AFC4-6F175D3DCCD1}"
+      }
+    ]
+  }
+]

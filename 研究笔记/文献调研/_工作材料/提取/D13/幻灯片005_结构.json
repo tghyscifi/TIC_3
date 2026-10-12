@@ -1,0 +1,125 @@
+[
+  {
+    "type": "sp",
+    "identity": {
+      "id": "2",
+      "name": "标题 1"
+    },
+    "text": "预处理\n——\n算法实现",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "3",
+      "name": "内容占位符 2"
+    },
+    "text": "对上述流程详细描述：\n首先读入的图像是\nRGB\n三通道图像，每个像素点是一个\nuint8\n的数据，范围为\n[0,255]\n。\n图像\nResize\n整形到\n256*256*3\n在\n256*256*3\n的图像中，裁切出中间的\n224*224*3\n的部分\n将每个像素，\n[0,255]\n范围的\nuint8\n的数据，除\n255\n，转为\n[0.0, 1.0]\n范围的浮点数\nRGB\n三个通道的像素点，分别归一化：减均值、除方差\n6. \t\n得到的归一化之后的\nr_new\n, \ng_new\n, \nb_new\n，分别乘\n128\n，然后取整（\nround\n函数），并截取到\n[-128, 127]\n之间（\nclamp\n函数），作为最终的输入像素数据\n*\n这里，\n的\nunsigned int8\n数据，得到的\n是一个\n[-128, 127]\n范围的\nint8\n数据",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "152400",
+        "y": "1905000"
+      },
+      {
+        "tag": "ext",
+        "cx": "8991600",
+        "cy": "4876799"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "3",
+      "name": "内容占位符 2"
+    },
+    "text": " ",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "152400",
+        "y": "1905000"
+      },
+      {
+        "tag": "ext",
+        "cx": "8991600",
+        "cy": "4876799"
+      }
+    ]
+  },
+  {
+    "type": "sp",
+    "identity": {
+      "id": "5",
+      "name": "AutoShape 2",
+      "descr": "6.png"
+    },
+    "text": "",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "4419600",
+        "y": "3276600"
+      },
+      {
+        "tag": "ext",
+        "cx": "304800",
+        "cy": "304800"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      },
+      {
+        "tag": "ext",
+        "uri": "{909E8E84-426E-40DD-AFC4-6F175D3DCCD1}"
+      }
+    ]
+  },
+  {
+    "type": "pic",
+    "identity": {
+      "id": "6",
+      "name": "图片 5"
+    },
+    "text": "",
+    "geometry": [
+      {
+        "tag": "ext",
+        "uri": "{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}"
+      },
+      {
+        "tag": "off",
+        "x": "3505200",
+        "y": "914400"
+      },
+      {
+        "tag": "ext",
+        "cx": "5334000",
+        "cy": "1331221"
+      },
+      {
+        "tag": "prstGeom",
+        "prst": "rect"
+      }
+    ]
+  }
+]
