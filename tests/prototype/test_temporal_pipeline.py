@@ -72,4 +72,20 @@ class TemporalPipelineTests(unittest.TestCase):
         g=self.graph(P08Contract())
         with self.assertRaises(CompilerError):compile_temporal(g,QuantizationConfig({}),np.ones((2,3),dtype=float))
 
+    def test_config_cuts_are_never_silently_ignored(self):
+        g=self.graph(P08Contract())
+        for cuts in ({'missing':0},{'fc':1},{'fc':True}):
+            with self.subTest(cuts=cuts), self.assertRaises(CompilerError):
+                compile_temporal(g,QuantizationConfig(cuts),np.ones((2,3),dtype=np.int64))
+
+    def test_matching_frontend_cut_configuration(self):
+        layer=FCLayer('fc',3,4,np.ones((4,3),dtype=np.int64),np.zeros(4,dtype=np.int64))
+        g=TemporalGraph('x',(3,),'y',[
+            TemporalNode('fc','FC',('x',),'u',(4,),'int32',layer=layer),
+            TemporalNode('fc__cut','Cut',('u',),'y',(4,),'int8',{'cut':1})])
+        c=compile_temporal(g,QuantizationConfig({'fc':1}),np.array([[4,4,4],[-4,-4,-4]]))
+        actual=verify_temporal_behavior(c)
+        np.testing.assert_array_equal(actual['y'],[[3]*4,[-3]*4])
+        with self.assertRaises(CompilerError):compile_temporal(g,QuantizationConfig({'fc':2}),c.input_data)
+
 if __name__=='__main__':unittest.main()

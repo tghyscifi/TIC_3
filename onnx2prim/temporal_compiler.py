@@ -49,9 +49,21 @@ def compile_temporal(graph,config,frames):
     # Temporal frontend owns explicit cut nodes; do not send these keys to the
     # old linear quantization validator which would interpret them as LIF cuts.
     validate_quantization(type(config)({},config.parameter_mode,config.weight_scale,config.bias_scale))
+    # Typed snapshots carry explicit Cut nodes. ONNX config cuts have already
+    # been inserted by the frontend; never silently ignore unmatched keys here.
+    ordered=graph.ordered()
+    if not isinstance(config.cuts,dict):raise CompilerError('Temporal cuts must be a dictionary',code='QUANTIZATION')
+    indexed={n.name:n for n in ordered}
+    for name,amount in config.cuts.items():
+        parent=indexed.get(name);cut=indexed.get(str(name)+'__cut')
+        if (not isinstance(name,str) or type(amount) is not int or not 0<=amount<=15
+                or parent is None or parent.op not in ('Conv','FC','Add')
+                or cut is None or cut.op!='Cut' or cut.inputs!=(parent.output,)
+                or cut.attrs.get('cut')!=amount):
+            raise CompilerError('Configured temporal cut lacks matching explicit node: '+str(name),code='QUANTIZATION')
     x=validate_frames(graph,frames);reference=run_temporal_reference(graph,config,x)
     shapes={graph.input_name:(graph.input_shape,graph.input_dtype)};kernels={};reductions={};statecore=0
-    for n in graph.ordered():
+    for n in ordered:
         src=shapes[n.inputs[0]]
         if n.op in ('Conv','FC'):
             w,b=integer_parameters(n.layer,config)

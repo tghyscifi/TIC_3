@@ -17,6 +17,7 @@ from onnx2prim.project_snn_models import MODEL_IDS, FLOAT_QUANTIZATION_POLICY, b
 from onnx2prim.quantization import QuantizationConfig
 from onnx2prim.temporal_compiler import compile_temporal, verify_temporal_behavior
 from onnx2prim.temporal_export import save_temporal_graph, export_temporal_artifacts
+from onnx2prim.temporal_onnx import save_temporal_onnx
 
 
 def write_json(path, value):
@@ -57,6 +58,7 @@ def main(argv=None):
         frames = rng.integers(low, high, (args.steps,) + graph.input_shape, dtype=np.int64)
         directory = out / (f'{index:02d}_' + model_id.replace('/', '_'))
         save_temporal_graph(graph, directory)
+        save_temporal_onnx(graph, directory / 'model.onnx')
         np.save(directory / 'input.npy', frames, allow_pickle=False)
         write_json(directory / 'quant.json', asdict(q))
         entry = {'model_id': model_id, 'directory': directory.name,

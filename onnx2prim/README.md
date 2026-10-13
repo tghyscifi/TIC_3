@@ -211,9 +211,11 @@ $env:PYTHONPATH = "$PWD\.prototype_deps_tianjic;$PWD"
 
 ## 9. v0.4.0：全尺寸、混合与分支 SNN 计算
 
+2026-10-12 验收：195 项全量回归与 3 项单独 ONNX 补充测试通过，compileall 通过；原尺寸 11 族各 3 帧整数计算与显式 ONNX 往返一致性通过。SoundSNN、SHD 的 JSON/ONNX 实际 CLI 原语验证通过。全部为合成整数参数，SHD 选择表未认证，未运行硬件 exe 或芯片。
+
 新增 `--temporal`：显式整数 temporal DAG，支持 Conv/FC/Cut/Relu/MaxPool/Add/Concat/Cast/LIF；大层按输入/输出通道及空间分片，部分和由真实 p02 在 int32 中累加，持久膜状态按核隔离。Sound、HNN、snntorch 延迟复位分别 lowering，新增 packed ternary 输入与 fire_type5 输出，以及 sum/mean/last 时间读出。
 
-项目扫描得到11个源码模型族，均有原尺寸预设。可复现入口：
+项目扫描得到 11 个源码模型族，均有原尺寸预设。可复现入口：
 
 ```powershell
 $env:PYTHONPATH = "$PWD\.prototype_deps_tianjic;$PWD"
